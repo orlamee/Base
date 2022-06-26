@@ -1,9 +1,11 @@
+import React from 'react';
 import logo from '../img/logo.png';
+import { Link } from "react-router-dom";
 function Header() {
 	return (
 		<nav className="navbar fixed-top navbar-expand-lg navbar-light">
-			<div className="container">
-				<a className="navbar-brand" href="/">
+			<div className='container'>
+				<a className='navbar-brand' href="/">
 					<img src={logo} alt="" className='logo img-fluid' />
 				</a>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
@@ -23,7 +25,7 @@ function Header() {
 					<div className='ml-auto'>
 						<ul className='navbar-nav'>
 							<li className='nav-item'>
-								<a className='nav-link me-3' href="!#">Log in</a>
+								<Link to="login" className='nav-link me-3'>Log in</Link>
 							</li>
 							<li className='nav-item'>
 						   	<a className='btn btn-primary px-4' href="!#">Try for free</a>

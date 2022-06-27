@@ -5,9 +5,9 @@ function Header() {
 	return (
 		<nav className="navbar fixed-top navbar-expand-lg navbar-light">
 			<div className='container'>
-				<a className='navbar-brand' href="/">
+				<Link className='navbar-brand' to="/">
 					<img src={logo} alt="" className='logo img-fluid' />
-				</a>
+				</Link>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
 					<span className="navbar-toggler-icon"></span>
 				</button>
@@ -28,13 +28,13 @@ function Header() {
 								<Link to="login" className='nav-link me-3'>Log in</Link>
 							</li>
 							<li className='nav-item'>
-						   	<a className='btn btn-primary px-4' href="!#">Try for free</a>
+						   	<a className='btn btn-primary px-4' href="/">Try for free</a>
 							</li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</nav>
-	);	
+	);
 }
 export default Header;

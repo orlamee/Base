@@ -48,7 +48,7 @@ function CreateAccount() {
                 </div>
               </div>
               <div className='my-4 text-center'>
-                <small className='small'>Got an account <span className='secondary-color'><Link to="/login">Sign in</Link></span></small>
+                <small className='small'>Got an account <span className='secondary-color'><Link to="/login-as">Sign in</Link></span></small>
               </div>
             </div>
           </div>

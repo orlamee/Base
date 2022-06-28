@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Login from './Login';
+import Loginas from './Login-as';
 import reportWebVitals from './reportWebVitals';
+import CreateAccount from './CreateAccount';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
+import SignUp from './SignUp';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +21,9 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/login" element={<Login />}></Route>
+      <Route path="/login-as" element={<Loginas/>}></Route>
+      <Route path="/create" element={<CreateAccount/>}></Route>
+      <Route path="/signup" element={<SignUp/>}></Route>
     </Routes>
   </BrowserRouter>
 );

@@ -24,8 +24,8 @@ function Login() {
                 <div className='login-bottom'> 
                   <form className='row'>
                     <div className="mb-3">
-                      <label className="form-label">Email</label>
-                      <input type="text" className="form-control py-4" id="formGroupExampleInput" placeholder="Enter email address"/>
+                      <label className="form-label">Email Address</label>
+                      <input type="email" className="form-control py-4" id="formGroupExampleInput" placeholder="Enter email address"/>
                     </div>
                     <Password/>
                     <div className='text-left mb-4'>
@@ -38,7 +38,7 @@ function Login() {
                 </div>
               </div>
               <div className='my-4 text-center'>
-                <small className='small'>I'm new to Base <span className='secondary-color'>Create account</span></small>
+                <small className='small'>I'm new to Base <span className='secondary-color'><Link to="/create">Create account</Link></span></small>
               </div>
             </div>
           </div>

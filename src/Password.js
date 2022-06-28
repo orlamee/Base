@@ -4,7 +4,7 @@ function Password() {
     <>
       <div className="mb-3">
         <label className="form-label">Password</label>
-        <input id="password" className="form-control py-4" type="password" maxLength="20"></input>
+        <input id="password" className="form-control py-4" type="password" maxLength="20" placeholder="Enter password"></input>
       </div>
     </>
   );

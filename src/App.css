@@ -65,6 +65,10 @@ body {
   color: #00ABE7;
 }
 
+.secondary-color a {
+  text-decoration: none;
+}
+
 .small {
   color: #103861;
 }
@@ -74,3 +78,60 @@ body {
   border-color: #ced4da;
 }
 
+.form-check-input:checked {
+  background-color: #00ABE7;
+  border-color: #00ABE7;
+}
+
+.custom {
+  width: 30px;
+  height: 30px;
+  margin-top: 3px;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid #00ABE7;
+}
+
+.custom-check .custom {
+  float: left;
+  margin-left: -37px;
+}
+
+.radio-heading {
+  font-size: 18px;
+  color: #103861;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.radio-container {
+  padding-left: 14px;
+}
+
+.radio-container p {
+  font-size: 14px;
+}
+
+.signed {
+  width: 19px;
+  height: 19px;
+  margin-top: 0.25em;
+  vertical-align: top;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid rgb(0 171 231);
+}
+
+.checked {
+  margin-left: 17px;
+}
+
+.form-check .signed {
+  float: left;
+  margin-left: -10px;
+}

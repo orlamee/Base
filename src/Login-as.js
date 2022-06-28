@@ -42,7 +42,7 @@ function Loginas() {
                       </div>
                     </div>
                     <div className="col-12 mt-5">
-                      <Link to="/login" type="button" className="btn btn-primary rounded-pill btn-block py-3">Log in</Link>
+                      <button type="button" className="btn btn-primary rounded-pill btn-block py-3"><Link to="/login">Log in</Link></button>
                     </div>
                   </form>
                 </div>

@@ -42,7 +42,7 @@ function CreateAccount() {
                       </div>
                     </div>
                     <div className="col-12 mt-5">
-                      <Link to="/signup" type="button" className="btn btn-primary rounded-pill btn-block py-3">Sign up</Link>
+                      <button type="button" className="btn btn-primary rounded-pill btn-block py-3"><Link to="/signup">Sign up</Link></button>
                     </div>
                   </form>
                 </div>

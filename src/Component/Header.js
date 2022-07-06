@@ -15,10 +15,13 @@ function Header() {
 					<div className='mx-auto'>
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a className="nav-link active me-4" aria-current="page" href="!#">For teams</a>
+								<a className="nav-link active" aria-current="page" href="!#">For teams</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="!#">Explore spaces</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="!#">Pricing</a>
 							</li>
 						</ul>
 					</div>

@@ -1,5 +1,5 @@
 import React from "react";
-import venia from "../img/venia.svg";
+import venia from "../img/venia.png";
 function Secondlayer() {
   return (
     <section className="secondlayer">

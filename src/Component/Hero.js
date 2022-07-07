@@ -41,11 +41,11 @@ function Hero() {
         </div>
         <div className="row justify-content-center">
           <div className="col-md-11 logo-sect text-center">
-            <img className="d-inline me-3 img-fluid" alt="" src={wework}/>
-            <img className="d-inline me-3 img-fluid" alt="" src={valley}/>
-            <img className="d-inline me-3 img-fluid" alt="" src={seedspace}/>
-            <img className="d-inline me-3 img-fluid" alt="" src={work}/>
-            <img className="d-inline me-3 img-fluid" alt="" src={hub}/>
+            <img className="d-inline me-4 img-fluid" alt="" src={wework}/>
+            <img className="d-inline me-4 img-fluid" alt="" src={valley}/>
+            <img className="d-inline me-4 img-fluid" alt="" src={seedspace}/>
+            <img className="d-inline me-4 img-fluid" alt="" src={work}/>
+            <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
           </div>
         </div>
         <div className="row justify-content-center mb-5">

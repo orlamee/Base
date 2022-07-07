@@ -1,13 +1,13 @@
 import React from "react";
 import hero from "../img/hero.png";
-import lines from "../img/works-line.png";
+import lines from "../img/works-line.svg";
 import wework from "../img/wework.png";
 import valley from "../img/valley.png";
 import hub from "../img/hub.png";
 import work from "../img/workstation.png";
 import seedspace from "../img/seedspace.png";
 import mobilehero from "../img/hero-mobile.png";
-import worklines from "../img/worklines.png";
+import worklines from "../img/worklines.svg";
 
 function Hero() {
   return (

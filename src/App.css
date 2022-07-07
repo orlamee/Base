@@ -188,6 +188,14 @@ h2.hero {
   letter-spacing: 2px;
 }
 
+h3.hero {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #103861;
+  letter-spacing: 2px;
+}
+
 
 #content {
   /* padding-top:200px;   */
@@ -236,4 +244,12 @@ h2.hero {
 
 .line-gradient {
   margin-top: -350px;
+}
+
+.logo-sect {
+  padding: 15px 40px;
+  margin: 64px 0px;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 11px 8px 33px 42px #f5fbfe;
 }

@@ -1,6 +1,11 @@
 import React from "react";
 import hero from "../img/hero.png";
 import lines from "../img/works-line.png";
+import wework from "../img/wework.png";
+import valley from "../img/valley.png";
+import hub from "../img/hub.png";
+import work from "../img/workstation.png";
+import seedspace from "../img/seedspace.png";
 // import Animation from "./Animation";
 
 function Hero() {
@@ -26,13 +31,20 @@ function Hero() {
         <img src={lines} alt="" className="img-fluid bg" />
       </div>
       <div className="container ">
-        <div className="row justify-content-center">
+        <div className="row justify-content-center" style={{marginTop: "-45px"}}>
           <div className="col-md-8 text-center">
-            <h2 className="hero"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h2>
+            <h3 className="hero"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
           </div>
         </div>
-        <div className="row">
-          <div className="col"></div>
+        <div className="row justify-content-center">
+          <div className="col-md-10 logo-sect text-center">
+            <img className="d-inline me-3" alt="" src={wework}/>
+            <img className="d-inline me-3" alt="" src={valley}/>
+            <img className="d-inline me-3" alt="" src={seedspace}/>
+            <img className="d-inline me-3" alt="" src={work}/>
+            <img className="d-inline me-3" alt="" src={hub}/>
+            {/* <div className="d-inline p-2 bg-dark text-white">d-inline</div> */}
+          </div>
         </div>
       </div>
 		</div>

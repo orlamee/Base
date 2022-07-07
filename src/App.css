@@ -253,3 +253,29 @@ h3.hero {
   border-radius: 30px;
   box-shadow: 11px 8px 33px 42px #f5fbfe;
 }
+
+.pin {
+  background-color: #A5B9C21A;
+  padding: 15px 10px 7px 17px;
+  border-radius: 20px;
+}
+
+.pin h6 {
+  color: #555A5E;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.hero-button {
+  margin: 90px 0px 60px 0px;
+}
+
+.shadow {
+  box-shadow: 11px 8px 33px 42px #f5fbfe!important;
+}
+
+.icon-hero {
+  color: #dd332b;
+  font-size: 19px;
+}

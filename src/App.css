@@ -324,3 +324,8 @@ h3.hero {
   color: #dd332b;
   font-size: 19px;
 }
+
+section.secondlayer {
+  background-color: #F5F6F8;
+  padding: 60px 0px;
+}

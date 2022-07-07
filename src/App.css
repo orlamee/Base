@@ -180,6 +180,37 @@ body {
   }
 }
 
+@media only screen and (max-width: 768px){
+  .desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .subtext {
+    padding: 0px 20px;
+  }
+
+  .subtitle {
+    font-size: 17px;
+    line-height: 32px;
+    color: #555A5E;
+  }
+  .banner-inner{
+    /* position: absolute; */
+    /* left: 0; */
+    /* top: 18%; */
+    width: 100%;
+    text-align: center;
+  }
+}
+
 h2.hero {
   font-size: 50px;
   font-weight: 700;
@@ -242,9 +273,19 @@ h3.hero {
   border-color: #EFEDED;
 }
 
-.line-gradient {
-  margin-top: -350px;
+@media only screen and (min-width: 768px){
+  .line-gradient {
+    margin-top: -350px;
+  }
 }
+
+@media only screen and (max-width: 768px){
+  .line-gradient {
+    margin-top: -134px;
+  }
+}
+
+
 
 .logo-sect {
   padding: 15px 40px;

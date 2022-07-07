@@ -5,15 +5,15 @@ import wework from "../img/wework.png";
 import valley from "../img/valley.png";
 import hub from "../img/hub.png";
 import work from "../img/workstation.png";
-// import pin from "../img/pin.png";
 import seedspace from "../img/seedspace.png";
-// import soon from "../img/coming-soon.png";
-// import Animation from "./Animation";
+import mobilehero from "../img/hero-mobile.png";
+import worklines from "../img/worklines.png";
 
 function Hero() {
   return (
     <div className="banner-section">
-			<img src={hero} alt="" className='img-fluid bg'/>
+			<img src={hero} alt="" className='img-fluid bg desktop'/>
+      {/* <img src={hero} alt="" className='img-fluid bg mobile'/> */}
 			<div className="banner-inner">
 				<div className="row subtext justify-content-center">
           <div className="col-md-8 text-center">
@@ -28,23 +28,49 @@ function Hero() {
               <button className="btn btn-outline-dark py-3 px-3 text-secondary" type="button">Teams - Get started today</button>
             </div>
           </div>
+          <img src={mobilehero} alt="" className="mobile img-fluid"/>
 				</div>
 			</div>
-      <div className="line-gradient">
+      <div className="line-gradient desktop">
         <img src={lines} alt="" className="img-fluid bg" />
       </div>
-      <div className="container ">
-        <div className="row justify-content-center" style={{marginTop: "-45px"}}>
+      <div className=" line-gradient mobile">
+        <img src={worklines} alt="" className="img-fluid bg" />
+      </div>
+      <div className="container">
+        <div className="row justify-content-center desktop" style={{marginTop: "-45px"}}>
           <div className="col-md-8 text-center">
             <h3 className="hero"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
           </div>
         </div>
-        <div className="row justify-content-center">
+        <div className="row justify-content-center mobile" style={{marginTop: "-45px"}}>
+          <div className="col-md-8 text-center">
+            <h3 className="hero"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
+          </div>
+        </div>
+        <div className="row justify-content-center desktop">
           <div className="col-md-11 logo-sect text-center">
             <img className="d-inline me-4 img-fluid" alt="" src={wework}/>
             <img className="d-inline me-4 img-fluid" alt="" src={valley}/>
             <img className="d-inline me-4 img-fluid" alt="" src={seedspace}/>
             <img className="d-inline me-4 img-fluid" alt="" src={work}/>
+            <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
+          </div>
+        </div>
+        <div className="row justify-content-center logo-sect mobile">
+          <div className="col text-center">
+            <img className="d-inline me-4 img-fluid" alt="" src={wework}/>
+          </div>
+          <div className="col text-center">
+            <img className="d-inline me-4 img-fluid" alt="" src={valley}/>
+          </div>
+          <div className="col text-center">
+            <img className="d-inline me-4 img-fluid" alt="" src={seedspace}/>
+          </div>
+          <div className="col text-center">
+            <img className="d-inline me-4 img-fluid" alt="" src={work}/>
+          </div>
+          <div className="col text-center">
             <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
           </div>
         </div>

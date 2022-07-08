@@ -12,7 +12,7 @@ import worklines from "../img/worklines.svg";
 function Hero() {
   return (
     <div className="banner-section">
-			<img src={hero} alt="" className='img-fluid bg desktop'/>
+			<img src={hero} alt="" className='img-fluid bg desktop' />
       {/* <img src={hero} alt="" className='img-fluid bg mobile'/> */}
 			<div className="banner-inner">
 				<div className="row subtext justify-content-center">

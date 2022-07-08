@@ -10,7 +10,7 @@ function ThirdLayer() {
       <div className="desktop second-step">
         <img src={black} alt="" className="img-fluid bg" />
       </div>
-      <div className="mobile">
+      <div className="mobile second-step-mobile">
         <img src={invert} alt="" className="img-fluid bg" />
       </div>
       <div className="container">

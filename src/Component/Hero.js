@@ -28,8 +28,8 @@ function Hero() {
               <button className="btn btn-outline-dark py-3 px-3 text-secondary" type="button">Teams - Get started today</button>
             </div>
           </div>
-          <img src={mobilehero} alt="" className="mobile img-fluid"/>
 				</div>
+        <img src={mobilehero} alt="" className="mobile img-fluid"/>
 			</div>
       <div className="line-gradient desktop">
         <img src={lines} alt="" className="img-fluid bg" />

@@ -26,7 +26,7 @@ function ThirdLayer() {
           <div className="col-md-4">
             <div className="card-bg">
               <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>spaces</h2>
-              <h6 className="fs-6 pt-4">There’s always one 5 mins from you</h6>
+              <h6 className="fs-6 pt-4 pb-4">There’s always one 5 mins from you</h6>
               <div className="text-center">
                 <p><span style={{color: "#00ABE7"}}>Veniahub, Ikeja</span></p>
                 <img src={card} alt="" className="img-fluid" style={{marginLeft: "-31px"}} width="283px"/>
@@ -39,7 +39,7 @@ function ThirdLayer() {
           <div className="col-md-4">
             <div className="card-bg" style={{marginTop: "70px"}}>
               <h2><span style={{color: "#00ABE7"}}>Meet other </span><br/><span style={{color: "#FF64FF"}}>remote workers</span></h2>
-              <h6 className="fs-6 pt-4">Meet new people,  make new friends</h6>
+              <h6 className="fs-6 pt-4 pb-4">Meet new people,  make new friends</h6>
               <div className="text-center">
                 <p><span style={{color: "#00ABE7"}}>Veniahub, Ikeja</span></p>
                 <img src={card} alt="" className="img-fluid" style={{marginLeft: "-31px"}} width="283px"/>

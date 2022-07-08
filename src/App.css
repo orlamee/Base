@@ -329,3 +329,19 @@ section.secondlayer {
   background-color: #F5F6F8;
   padding: 60px 0px;
 }
+
+.title-content {
+  margin-top: 40px;
+}
+
+.title-content h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #103861;
+}
+
+.title-content p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #555A5E;
+}

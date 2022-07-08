@@ -1,7 +1,7 @@
 import React from "react";
 import venia from "../img/venia.png";
-import black from "../img/workline-black.svg";
-import invert from "../img/workline-invert.svg";
+// import black from "../img/workline-black.svg";
+// import invert from "../img/workline-invert.svg";
 function Secondlayer() {
   return (
     <section className="secondlayer">
@@ -32,12 +32,12 @@ function Secondlayer() {
           </div>
         </div>
       </div>
-      <div className="desktop">
+      {/* <div className="desktop">
         <img src={black} alt="" className="img-fluid bg" />
       </div>
       <div className="mobile">
         <img src={invert} alt="" className="img-fluid bg" />
-      </div>
+      </div> */}
     </section>
   )
 }

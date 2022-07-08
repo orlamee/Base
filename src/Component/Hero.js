@@ -34,7 +34,7 @@ function Hero() {
       <div className="line-gradient desktop">
         <img src={lines} alt="" className="img-fluid bg" />
       </div>
-      <div className=" line-gradient mobile">
+      <div className="line-gradient mobile">
         <img src={worklines} alt="" className="img-fluid bg" />
       </div>
       <div className="container">

@@ -1,7 +1,7 @@
 import React from "react";
 import black from "../img/workline-black.svg";
 import invert from "../img/workline-invert.svg";
-import card from "../img/card-img.png";
+import card from "../img/card-img.svg";
 import plus from "../img/plus.svg";
 
 function ThirdLayer() {

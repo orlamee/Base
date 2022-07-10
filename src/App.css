@@ -437,3 +437,32 @@ section.secondlayer {
 .btn-outline-dark-line {
   border-color: #EFEDED;
 }
+
+
+.button-space {
+  margin: 90px 0px;
+}
+
+.team-section {
+  padding: 90px 0px;
+  background-color: #F6F9FC;
+  background-image: url("./img/bg-animation.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+
+}
+
+.team-section h2 {
+  font-size: 48px;
+  color: #103861;
+  line-height: 55px;
+  font-weight: 700;
+}
+
+.team-section h6 {
+  font-size: 20px;
+  line-height: 23px;
+  color: #555A5E;
+  font-weight: 400;
+}

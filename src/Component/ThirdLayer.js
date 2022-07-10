@@ -4,6 +4,7 @@ import invert from "../img/workline-invert.svg";
 import card from "../img/card-img.svg";
 import plus from "../img/plus.svg";
 import fundcard from "../img/fundcard.svg";
+import humans from "../img/humans.svg";
 
 function ThirdLayer() {
   return (
@@ -42,8 +43,7 @@ function ThirdLayer() {
               <h2><span style={{color: "#00ABE7"}}>Meet other </span><br/><span style={{color: "#FF64FF"}}>remote workers</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Meet new people,  make new friends</h6>
               <div className="text-center">
-                <p><span style={{color: "#00ABE7"}}>Veniahub, Ikeja</span></p>
-                <img src={card} alt="" className="img-fluid" style={{marginLeft: "-31px"}} width="283px"/>
+                <img src={humans} alt="" className="img-fluid" style={{marginLeft: "-31px"}} width="283px"/>
               </div>
               <div className="float-end pt-3">
                 <img src={plus} alt="" className="img-fluid" />
@@ -51,7 +51,7 @@ function ThirdLayer() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center app-card" style={{marginTop: "0px"}}>
+        <div className="row justify-content-center app-card mb-5" style={{marginTop: "0px"}}>
           <div className="col-md-4">
             <div className="card-bg" style={{margin: "-65px 0px 65px 0px" }}>
               <h2><span style={{color: "#00ABE7"}}>Instant </span><br/>check-in</h2>
@@ -68,7 +68,7 @@ function ThirdLayer() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card-bg">
+            <div className="card-bg" style={{marginTop: "30px"}}>
               <h2><span style={{color: "#00ABE7"}}>Cost </span><br/><span style={{color: "#FF64FF"}}>effective</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Pay per minute, and for only time used</h6>
               <div className="text-center">
@@ -79,6 +79,12 @@ function ThirdLayer() {
                 <img src={plus} alt="" className="img-fluid" />
               </div>
             </div>
+          </div>
+        </div>
+        <div className="button-space text-center">
+          <div className="d-grid gap-2 d-md-block mt-5">
+            <button className="btn btn-primary me-3 py-3 px-3" type="button">Sign up for free</button>
+            <button className="btn btn-outline-dark py-3 px-3 text-secondary" type="button">Teams - Get started today</button>
           </div>
         </div>
       </div>

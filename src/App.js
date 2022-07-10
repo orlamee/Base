@@ -4,6 +4,7 @@ import React from 'react';
 import Gradient from './Component/Gradient';
 import Secondlayer from './Component/SecondLayer';
 import ThirdLayer from './Component/ThirdLayer';
+import FourthLayer from './Component/FourthLayer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Gradient/>
       <Secondlayer/>
       <ThirdLayer/>
+      <FourthLayer/>
     </div>
   );
 }

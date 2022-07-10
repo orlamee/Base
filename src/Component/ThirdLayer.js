@@ -43,7 +43,7 @@ function ThirdLayer() {
               <h2><span style={{color: "#00ABE7"}}>Meet other </span><br/><span style={{color: "#FF64FF"}}>remote workers</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Meet new people,  make new friends</h6>
               <div className="text-center">
-                <img src={humans} alt="" className="img-fluid" style={{marginLeft: "-31px"}} width="283px"/>
+                <img src={humans} alt="" className="img-fluid" width="283px"/>
               </div>
               <div className="float-end pt-3">
                 <img src={plus} alt="" className="img-fluid" />

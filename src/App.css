@@ -466,3 +466,59 @@ section.secondlayer {
   color: #555A5E;
   font-weight: 400;
 }
+
+.join-section {
+  padding: 90px 0px;
+  background-color: #000000;
+  
+
+}
+
+.join-section h2 {
+  color: #FFFFFF;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+}
+
+.listed {
+  font-size: 20px;
+  color: #827F7F;
+  font-weight: 400;
+}
+
+::marker {
+  font-size: 27px;
+}
+
+
+
+@media (min-width: 992px){
+  .wavy {
+    background-image: url("./img/wave.gif");
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    background-size: contain;
+    padding: 100px 0px;
+  }
+}
+
+.counter {
+  background: #111111;
+  padding: 40px 0px;
+  border: 1px solid #ffffff30;
+}
+
+.counter h3 {
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.counter h6 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #827F7F;
+}

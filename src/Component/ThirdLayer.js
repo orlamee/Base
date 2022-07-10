@@ -72,7 +72,6 @@ function ThirdLayer() {
               <h2><span style={{color: "#00ABE7"}}>Cost </span><br/><span style={{color: "#FF64FF"}}>effective</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Pay per minute, and for only time used</h6>
               <div className="text-center">
-                {/* <p><span style={{color: "#00ABE7"}}>Veniahub, Ikeja</span></p> */}
                 <img src={fundcard} alt="" className="img-fluid" width="283px"/>
               </div>
               <div className="float-end pt-3">

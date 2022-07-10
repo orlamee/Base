@@ -1,5 +1,5 @@
 import React from "react";
-import workspace from "../img/spaces.svg";
+import workspace from "../img/spaces.png";
 
 function SixLayer() {
   return (

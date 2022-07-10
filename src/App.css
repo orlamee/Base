@@ -506,7 +506,9 @@ section.secondlayer {
 .counter {
   background: #111111;
   padding: 40px 0px;
-  border: 1px solid #ffffff30;
+  /* border: 1px solid #ffffff30; */
+  border-top: 1px solid #ffffff30 ;
+  border-bottom: 1px solid #ffffff30 ;
 }
 
 .counter h3 {

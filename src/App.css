@@ -522,3 +522,26 @@ section.secondlayer {
   font-weight: 400;
   color: #827F7F;
 }
+
+.workspaces-section {
+  padding: 90px 0px;
+  background: #fff;
+}
+
+.workspaces-section h2 {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #103861;
+}
+
+.listed-colored {
+  font-size: 20px;
+  color: #103861;
+  font-weight: 400;
+}
+
+.listed-colored li::marker {
+  font-size: 27px;
+  color: #00ABE7;
+}

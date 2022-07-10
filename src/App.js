@@ -6,6 +6,7 @@ import Secondlayer from './Component/SecondLayer';
 import ThirdLayer from './Component/ThirdLayer';
 import FourthLayer from './Component/FourthLayer';
 import FifthLayer from './Component/FifthLayer';
+import SixLayer from './Component/SixLayer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ThirdLayer/>
       <FourthLayer/>
       <FifthLayer/>
+      <SixLayer/>
     </div>
   );
 }

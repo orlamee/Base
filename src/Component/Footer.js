@@ -31,9 +31,9 @@ function Footer() {
           </div>
           <div className="col-md-2 col-6">
             <div className="d-flex flex-row">
-              <i class="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i>
-              <i class="bi bi-twitter me-4" style={{color: "#D9D9D9"}}></i>
-              <i class="bi bi-facebook" style={{color: "#D9D9D9"}}></i>
+              <i className="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i>
+              <i className="bi bi-twitter me-4" style={{color: "#D9D9D9"}}></i>
+              <i className="bi bi-facebook" style={{color: "#D9D9D9"}}></i>
             </div>
           </div>
         </div>

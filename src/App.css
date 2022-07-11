@@ -7,7 +7,12 @@ body {
   box-sizing: border-box;
   height: 100%;
   margin: 0;
-  font-family: 'GT Walsheim Pro', sans-serif;
+  font-family: GTWalsheimPro-Regular;
+}
+
+@font-face {
+  font-family: GTWalsheimPro-Regular;
+  src: url('./GTWalsheimPro-Regular.ttf');
 }
 
 @media only screen and (max-width: 768px){
@@ -234,9 +239,9 @@ body {
 }
 
 h2.hero {
-  font-size: 60px;
+  font-size: 54px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 62px;
   color: #103861;
   letter-spacing: 2px;
 }

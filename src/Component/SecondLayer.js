@@ -7,10 +7,10 @@ function Secondlayer() {
     <section className="secondlayer">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 mb-3">
+          <div className="col-md-6 mb-3" data-aos="slide-right" data-aos-duration="2000">
             <img src={venia} alt="" className="img-fluid" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="slide-left" data-aos-duration="2000">
             <h2 className="hero"><span style={{color: "#00ABE7"}}>No advance booking,</span><br/>just walk in</h2>
             <div className="title-content">
               <div className="mb-5">

@@ -15,7 +15,7 @@ function ThirdLayer() {
       <div className="mobile second-step-mobile">
         <img src={invert} alt="" className="img-fluid bg" />
       </div>
-      <div className="container">
+      <div className="container" data-aos="fade-right" data-aos-duration="2000">
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
             <h2 className="hero"><span style={{color: "#00ABE7"}}>Why Base is</span> awesome?</h2>

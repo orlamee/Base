@@ -15,7 +15,7 @@ function Hero() {
 			<img src={hero} alt="" className='img-fluid bg desktop' />
       {/* <img src={hero} alt="" className='img-fluid bg mobile'/> */}
 			<div className="banner-inner">
-				<div className="row subtext justify-content-center">
+				<div className="row subtext justify-content-center" data-aos="slide-down" data-aos-duration="2000">
           <div className="col-md-8 text-center">
             <h2 className='hero'><span style={{color: "#00ABE7"}}>Work</span> from the</h2>
             <h2 className='hero'>best <span style={{color: "#00ABE7"}}>workspace</span></h2>
@@ -37,7 +37,7 @@ function Hero() {
       <div className="line-gradient mobile">
         <img src={worklines} alt="" className="img-fluid bg" />
       </div>
-      <div className="container">
+      <div className="container" data-aos="slide-left" data-aos-duration="2000">
         <div className="row justify-content-center desktop" style={{marginTop: "-45px"}}>
           <div className="col-md-8 text-center">
             <h3 className="hero"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>

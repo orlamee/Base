@@ -1,7 +1,8 @@
 import React from "react";
 import workspace from "../img/spaces.png";
+import workspacemobile from "../img/mobilespace-mobile.png";
 
-function SixLayer() {
+function SixthLayer() {
   return (
     <section className="workspaces-section">
       <div className="container">
@@ -12,7 +13,8 @@ function SixLayer() {
         </div>
         <div className="row">
           <div className="col-md-6">
-            <img src={workspace} alt="" className="img-fluid" />
+            <img src={workspace} alt="" className="img-fluid desktop" />
+            <img src={workspacemobile} alt="" className="img-fluid mobile" />
           </div>
           <div className="col-md-6 mt-5">
             <ul className="listed-colored mb-4">
@@ -30,4 +32,4 @@ function SixLayer() {
   )
 }
 
-export default SixLayer;
+export default SixthLayer;

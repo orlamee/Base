@@ -547,3 +547,49 @@ section.secondlayer {
   font-size: 27px;
   color: #00ABE7;
 }
+
+.logo-house {
+  padding: 90px 0px;
+  background-color: #F1F2F6;
+  border-radius: 90px 90px 0px 0px;
+}
+
+.logo-house h2 {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #103861;
+}
+
+.footer-section {
+  padding: 100px 0px 50px 0px;
+  background-color: #000D1A;
+}
+
+.footer-section h2 {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.copyright {
+  padding: 150px 0px 0px 0px;
+}
+
+.footer-copyright li {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  position: relative;
+}
+
+/* .list-unstyled {
+  padding-left: 0px!important;
+  list-style: none;
+} */
+
+.footer-section .footer-copyright {
+  color: #D9D9D9;
+  padding-left: 0px;
+}

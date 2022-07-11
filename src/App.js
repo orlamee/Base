@@ -6,7 +6,9 @@ import Secondlayer from './Component/SecondLayer';
 import ThirdLayer from './Component/ThirdLayer';
 import FourthLayer from './Component/FourthLayer';
 import FifthLayer from './Component/FifthLayer';
-import SixLayer from './Component/SixLayer';
+import SixLayer from './Component/SixthLayer';
+import SeventhLayer from './Component/SeventhLayer';
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <FourthLayer/>
       <FifthLayer/>
       <SixLayer/>
+      <SeventhLayer/>
+      <Footer/>
     </div>
   );
 }

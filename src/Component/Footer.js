@@ -36,6 +36,11 @@ function Footer() {
               <i className="bi bi-facebook" style={{color: "#D9D9D9"}}></i>
             </div>
           </div>
+          <div className="col-md-2 col-6 mobile">
+            <ul className="listed-unstyled footer-copyright">
+              <li className="pe-4">© 2021 Base</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

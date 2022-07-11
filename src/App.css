@@ -611,3 +611,14 @@ section.secondlayer {
   color: #D9D9D9;
   padding-left: 0px;
 }
+
+h2.heroteam {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73px;
+  background: linear-gradient(90deg, #77DCFF 3%, #FF64FF 28.85%, #303030 47.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+}

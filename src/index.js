@@ -12,6 +12,7 @@ import {
   Route,
 } from "react-router-dom";
 import SignUp from './SignUp';
+import ForTeam from './ForTeam';
 
 
 
@@ -20,6 +21,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}></Route>
+      <Route path="/for-team" element={<ForTeam/>}></Route>
       <Route path="/login" element={<Login />}></Route>
       <Route path="/login-as" element={<Loginas/>}></Route>
       <Route path="/create" element={<CreateAccount/>}></Route>

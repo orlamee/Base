@@ -15,7 +15,7 @@ function Header() {
 					<div className='mx-auto'>
 						<ul className="navbar-nav">
 							<li className="nav-item">
-								<a className="nav-link active" aria-current="page" href="!#">For teams</a>
+								<Link className="nav-link active" aria-current="page" to="/for-team">For teams</Link>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="!#">Explore spaces</a>

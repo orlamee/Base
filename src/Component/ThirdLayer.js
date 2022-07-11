@@ -15,7 +15,7 @@ function ThirdLayer() {
       <div className="mobile second-step-mobile">
         <img src={invert} alt="" className="img-fluid bg" />
       </div>
-      <div className="container" data-aos="fade-right" data-aos-duration="2000">
+      <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
             <h2 className="hero"><span style={{color: "#00ABE7"}}>Why Base is</span> awesome?</h2>
@@ -24,7 +24,7 @@ function ThirdLayer() {
             <h1 className="bg-text">Benefits</h1>
           </div>
         </div>
-        <div className="row justify-content-center app-card">
+        <div className="row justify-content-center app-card" data-aos="slide-right" data-aos-duration="2000">
           <div className="col-md-4">
             <div className="card-bg">
               <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>spaces</h2>
@@ -51,7 +51,7 @@ function ThirdLayer() {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center app-card mb-5" style={{marginTop: "0px"}}>
+        <div className="row justify-content-center app-card mb-5" style={{marginTop: "0px"}} data-aos="slide-left" data-aos-duration="2000">
           <div className="col-md-4">
             <div className="card-bg" style={{margin: "-65px 0px 65px 0px" }}>
               <h2><span style={{color: "#00ABE7"}}>Instant </span><br/>check-in</h2>

@@ -201,6 +201,7 @@ body {
     width: 100%;
     text-align: center;
   }
+  
 }
 
 @media only screen and (max-width: 768px){
@@ -235,6 +236,9 @@ body {
     /* top: 18%; */
     width: 100%;
     text-align: center;
+  }
+  .hero h2 {
+    font-size: 48px;
   }
 }
 
@@ -669,4 +673,14 @@ h2.heroteam {
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+}
+
+@media (max-width: 767.98px){
+  h2.hero {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #103861;
+    /* letter-spacing: 2px; */
+}
 }

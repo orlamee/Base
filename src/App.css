@@ -711,7 +711,6 @@ h2.heroteam {
   font-size: 24px;
   line-height: 27px;
   color: #103861;
-
 }
 
 .core-bg p {
@@ -719,5 +718,92 @@ h2.heroteam {
   font-size: 18px;
   line-height: 21px;
   color: #555A5E;
+}
 
+.price-section {
+  padding: 90px 0px;
+  background-color: #000;
+}
+
+.price-section h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+
+.price-section h6 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #827F7F;
+}
+
+.price-header h6 {
+  font-size: 32px;
+  line-height: 37px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.price-header p {
+  font-size: 20px;
+  line-height: 23px;
+  color: #827F7F;
+  font-weight: 400;
+}
+
+.price-header {
+  border: 0.5px solid rgba(247, 247, 247, 0.5);
+  border-radius: 20px 20px 0px 0px;
+  padding: 30px 20px 20px 20px;
+}
+
+.price-table {
+  padding-top: 60px;
+}
+
+.price-body {
+  padding: 30px 20px 30px 20px;
+  border: 1px solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: 1px solid rgba(247, 247, 247, 0.5);
+  border-left: 1px solid rgba(247, 247, 247, 0.5);
+  border-right: 1px solid rgba(247, 247, 247, 0.5);
+}
+
+.price-body h4 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #827F7F;
+}
+
+.bg-purple {
+  background-color: #9747FF!important;
+  border-color: #9747FF!important;
+}
+
+.bg-gray {
+  background-color: #2D3748!important;
+  border-color: #2D3748!important;
+}
+
+.white-space {
+  background: #fff;
+  padding: 60px;
+}
+
+.teamfooter {
+  background-color: #F6F9FC;
+  padding: 90px;
+}
+
+.teamfooter h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #103861;
 }

@@ -243,7 +243,7 @@ h2.hero {
   font-weight: 700;
   line-height: 62px;
   color: #103861;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
 }
 
 h3.hero {

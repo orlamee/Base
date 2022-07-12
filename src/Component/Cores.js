@@ -10,12 +10,12 @@ function Cores() {
     <section className="core-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-6 col-sm-6 mt-5 mb-3" data-aos="slide-right" data-aos-duration="2000">
+          <div className="col-md-6 col-sm-6 mt-5 mb-3 mobile-center" data-aos="slide-right" data-aos-duration="2000">
             <h2 className="mb-5">Give your team<br/><span style={{color: "#00ABE7"}}>freedom to work from</span><br/>anywhere</h2>
             <button className="btn btn-primary py-2 px-4" type="button">Try Base for teams</button>
           </div>
           <div className="col-md-6" data-aos="slide-left" data-aos-duration="2000">
-            <div className="row">
+            <div className="row price-mobile">
               <div className="col-md-6">
                 <div className="core-bg mb-1">
                   <img src={visibility} alt="" className="img-fluid" width={40} />
@@ -31,7 +31,7 @@ function Cores() {
                 </div>
               </div>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-4 price-mobile">
               <div className="col-md-6">
                 <div className="core-bg mb-1">
                   <img src={pool} alt="" className="img-fluid" width={40} />
@@ -47,7 +47,7 @@ function Cores() {
                 </div>
               </div>
             </div>
-            <div className="row mt-4">
+            <div className="row mt-4 price-mobile">
               <div className="col-md-6">
                 <div className="core-bg mb-1">
                   <img src={scale} alt="" className="img-fluid" width={40} />

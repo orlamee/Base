@@ -20,7 +20,6 @@ function TeamHero() {
             </div>
           </div>
 				</div>
-        {/* <img src={mobilehero} alt="" className="mobile img-fluid"/> */}
 			</div>
     </section>
   )

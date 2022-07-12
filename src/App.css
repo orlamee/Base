@@ -688,3 +688,36 @@ h2.heroteam {
   line-height: 55px;
   color: #103861;
 }
+
+.core-section h2 {
+  font-size: 48px;
+  color: #103861;
+  line-height: 55px;
+  font-weight: 700;
+}
+
+.core-section {
+  padding: 90px 0px;
+}
+
+.core-bg {
+  background-color: #F5F5F5;
+  padding: 50px 15px;
+  border-radius: 20px;
+}
+
+.core-bg h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  color: #103861;
+
+}
+
+.core-bg p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #555A5E;
+
+}

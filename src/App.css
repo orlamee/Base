@@ -608,6 +608,12 @@ section.secondlayer {
   position: relative;
 }
 
+.footer-copyright a {
+  color: #D9D9D9!important;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
 /* .list-unstyled {
   padding-left: 0px!important;
   list-style: none;
@@ -818,4 +824,21 @@ h2.heroteam {
   .mobile-center {
     text-align: center;
   }
+}
+
+.pricing-section {
+  padding: 200px 0px 100px 0px;
+}
+
+.pricing-section h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 73px;
+  text-align: center;
+  background: linear-gradient(90deg, #77DCFF 3%, #FF64FF 28.85%, #303030 47.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+
 }

@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import SignUp from './SignUp';
 import ForTeam from './ForTeam';
+import Pricing from './Pricing';
 
 
 
@@ -21,6 +22,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/for-team" element={<ForTeam/>}></Route>
+      <Route path="/pricing" element={<Pricing/>}></Route>
       <Route path="/login" element={<Login />}></Route>
       <Route path="/login-as" element={<Loginas/>}></Route>
       <Route path="/create" element={<CreateAccount/>}></Route>

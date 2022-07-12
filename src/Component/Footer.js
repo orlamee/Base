@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../img/logo.png";
+import { Link } from "react-router-dom";
 function Footer() {
   return(
     <section className="footer-section">
@@ -19,8 +20,8 @@ function Footer() {
           </div>
           <div className="col-md-4 col-6 mb-4">
             <ul className="listed-unstyled footer-copyright">
-              <li className="pe-4">For Team</li>
-              <li>Explore spaces</li>
+              <li className="pe-4"><Link to="/for-team">For Team</Link></li>
+              <li className="pe-4"><Link to="/">Explore spaces</Link></li>
             </ul>
           </div>
           <div className="col-md-4 col-6 mb-4">

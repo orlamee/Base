@@ -11,7 +11,7 @@ function Price () {
               <h6>No contracts, cancel any time</h6>
             </div>
           </div>
-          <div className="row price-table justify-content-center">
+          <div className="row price-table justify-content-center price-mobile">
             <div className="col-md-3 mb-3">
               <div className="price-header">
                 <h6>Silver</h6>
@@ -19,30 +19,30 @@ function Price () {
               </div>
               <div className="price-body">
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-5">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
-                <button className="btn btn-primary text-center btn-block py-2 px-3" type="button">Try silver for your team <i class="bi bi-arrow-right text-white"></i></button>
+                <button className="btn btn-primary text-center btn-block py-2 px-3" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
               </div>
             </div>
             <div className="col-md-3 mb-3">
@@ -52,30 +52,30 @@ function Price () {
               </div>
               <div className="price-body">
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-5">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
-                <button className="btn btn-primary text-center btn-block py-2 px-3 bg-purple" type="button">Try silver for your team <i class="bi bi-arrow-right text-white"></i></button>
+                <button className="btn btn-primary text-center btn-block py-2 px-3 bg-purple" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
               </div>
             </div>
             <div className="col-md-3">
@@ -85,30 +85,30 @@ function Price () {
               </div>
               <div className="price-body">
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
                 <div className="d-flex flex-row mb-5">
-                  <i class="bi bi-check-circle-fill text-white pe-2"></i>
+                  <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
-                <button className="btn btn-primary text-center btn-block bg-gray py-2 px-3" type="button">Try silver for your team <i class="bi bi-arrow-right text-white"></i></button>
+                <button className="btn btn-primary text-center btn-block bg-gray py-2 px-3" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
               </div>
             </div>
           </div>

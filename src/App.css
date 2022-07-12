@@ -807,3 +807,9 @@ h2.heroteam {
   line-height: 55px;
   color: #103861;
 }
+
+@media (max-width: 767.98px){
+  .price-mobile {
+    margin: 0px 30px
+  }
+}

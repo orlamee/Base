@@ -251,11 +251,11 @@ h2.hero {
 }
 
 h3.hero {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 55px;
   color: #103861;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
 }
 
 
@@ -390,15 +390,12 @@ section.secondlayer {
 }
 
 .card-bg {
-  padding: 120px 30px 70px 30px;
+  padding: 120px 20px 70px 20px;
   background: #FFF;
   border: 1px solid #D9D9D9;
-  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   border-radius: 30.7484px;
   background-image: url("./img/bg.png");
-  /* background-position: 50%; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -683,4 +680,11 @@ h2.heroteam {
     color: #103861;
     /* letter-spacing: 2px; */
 }
+}
+
+.account {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #103861;
 }

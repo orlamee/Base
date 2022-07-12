@@ -40,12 +40,12 @@ function Hero() {
       <div className="container" data-aos="slide-left" data-aos-duration="2000">
         <div className="row justify-content-center desktop" style={{marginTop: "-45px"}}>
           <div className="col-md-8 text-center">
-            <h3 className="hero"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
+            <h3 className="account"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
           </div>
         </div>
         <div className="row justify-content-center mobile" style={{marginTop: "-45px"}}>
           <div className="col-md-8 text-center">
-            <h3 className="hero"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
+            <h3 className="account"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
           </div>
         </div>
         <div className="row justify-content-center desktop">

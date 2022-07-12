@@ -677,9 +677,9 @@ h2.heroteam {
 
 @media (max-width: 767.98px){
   h2.hero {
-    font-size: 46px;
+    font-size: 41px;
     font-weight: 700;
-    line-height: 52px;
+    line-height: 50px;
     color: #103861;
     /* letter-spacing: 2px; */
 }

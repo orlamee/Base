@@ -842,3 +842,75 @@ h2.heroteam {
   /* text-fill-color: transparent; */
 
 }
+
+.location-section {
+  padding: 100px 0px;
+  background-color: #fff;
+  margin: 0px 30px;
+}
+
+.lagos {
+  background-color: #BFAFFC;
+  padding: 60px 20px;
+  border-radius: 20px;
+}
+
+.abuja {
+  background-color: #B7E7C7FA;
+  padding: 60px 20px;
+  border-radius: 20px;
+  margin-top: -118px;
+}
+
+.port {
+  background-color: #FDA9A9FA;
+  padding: 60px 20px;
+  border-radius: 20px;
+  margin-top: -118px;
+}
+
+.abeokuta {
+  background-color: #FAE497FA;
+  padding: 60px 20px;
+  border-radius: 20px;
+  margin-top: -118px;
+}
+
+.lagos h2 {
+  font-family: 'Boiling Demo', sans-serif!important;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 120px;
+  color: #303030;
+}
+
+.abeokuta h2 {
+  font-family: 'Boiling Demo', sans-serif!important;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 120px;
+  color: #303030;
+}
+
+.abuja h2 {
+  font-family: 'Boiling Demo', sans-serif!important;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 120px;
+  color: #303030;
+}
+
+.port h2 {
+  font-family: 'Boiling Demo', sans-serif!important;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 120px;
+  color: #303030;
+}
+
+@media (max-width: 767.98px){
+  .location-section h2 {
+    font-size: 50px;
+    /* line-height: 60px; */
+  }
+}

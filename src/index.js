@@ -13,6 +13,7 @@ import {
 import SignUp from './SignUp';
 import ForTeam from './ForTeam';
 import Pricing from './Pricing';
+import ExploreSpace from './ExploreSpace';
 
 
 
@@ -23,6 +24,7 @@ root.render(
       <Route path="/" element={<App />}></Route>
       <Route path="/for-team" element={<ForTeam/>}></Route>
       <Route path="/pricing" element={<Pricing/>}></Route>
+      <Route path="/explore" element={<ExploreSpace/>}></Route>
       <Route path="/login" element={<Login />}></Route>
       <Route path="/login-as" element={<Loginas/>}></Route>
       <Route path="/create" element={<CreateAccount/>}></Route>

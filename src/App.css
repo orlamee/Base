@@ -10,9 +10,15 @@ body {
   font-family: GTWalsheimPro-Regular;
 }
 
+
 @font-face {
   font-family: GTWalsheimPro-Regular;
   src: url('./GTWalsheimPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: Boiling-BlackDemo;
+  src: url('./Boiling-BlackDemo.ttf');
 }
 
 @media only screen and (max-width: 768px){
@@ -877,7 +883,7 @@ h2.heroteam {
 }
 
 .lagos h2 {
-  font-family: 'Boiling Demo', sans-serif!important;
+  font-family: Boiling-BlackDemo;
   font-weight: 900;
   font-size: 100px;
   line-height: 120px;
@@ -885,7 +891,7 @@ h2.heroteam {
 }
 
 .abeokuta h2 {
-  font-family: 'Boiling Demo', sans-serif!important;
+  font-family: Boiling-BlackDemo;
   font-weight: 900;
   font-size: 100px;
   line-height: 120px;
@@ -893,7 +899,7 @@ h2.heroteam {
 }
 
 .abuja h2 {
-  font-family: 'Boiling Demo', sans-serif!important;
+  font-family: Boiling-BlackDemo;
   font-weight: 900;
   font-size: 100px;
   line-height: 120px;
@@ -901,7 +907,7 @@ h2.heroteam {
 }
 
 .port h2 {
-  font-family: 'Boiling Demo', sans-serif!important;
+  font-family: Boiling-BlackDemo;
   font-weight: 900;
   font-size: 100px;
   line-height: 120px;

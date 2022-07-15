@@ -21,7 +21,7 @@ function Footer() {
           <div className="col-md-4 col-6 mb-4">
             <ul className="listed-unstyled footer-copyright">
               <li className="pe-4"><Link to="/for-team">For Team</Link></li>
-              <li className="pe-4"><Link to="/">Explore spaces</Link></li>
+              <li className="pe-4"><Link to="/explore">Explore spaces</Link></li>
             </ul>
           </div>
           <div className="col-md-4 col-6 mb-4">

@@ -31,7 +31,7 @@ function Benefits() {
             </div>
           </div>
           <div className="col-md-4 mb-3">
-            <div className="card-bg skew">
+            <div className="card-bg secondth skew">
               <h2><span style={{color: "#00ABE7"}}>Meet other </span><br/><span style={{color: "#FF64FF"}}>remote workers</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Meet new people,  make new friends</h6>
               <div className="text-center">
@@ -60,7 +60,7 @@ function Benefits() {
             </div>
           </div>
           <div className="col-md-4">
-            <div className="card-bg" style={{marginTop: "30px"}}>
+            <div className="card-bg secondth" style={{marginTop: "30px"}}>
               <h2><span style={{color: "#00ABE7"}}>Cost </span><br/><span style={{color: "#FF64FF"}}>effective</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Pay per minute, and for only time used</h6>
               <div className="text-center">

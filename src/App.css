@@ -406,6 +406,21 @@ section.secondlayer {
   background-size: cover;
 }
 
+.secondth {
+  background-image: url("./img/2nd.png")!important;
+}
+
+.card-bg {
+  padding: 120px 20px 70px 20px;
+  background: #FFF;
+  border: 1px solid #D9D9D9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 30.7484px;
+  background-image: url("./img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card-bg p {
   font-size: 13px !important;
   line-height: 16px;
@@ -920,3 +935,4 @@ h2.heroteam {
     /* line-height: 60px; */
   }
 }
+

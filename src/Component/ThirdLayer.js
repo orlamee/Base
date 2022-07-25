@@ -5,6 +5,7 @@ import card from "../img/card-img.png";
 import plus from "../img/plus.svg";
 import fundcard from "../img/fundcard.svg";
 import humans from "../img/humans.svg";
+import WaitList from "./WaitList";
 
 function ThirdLayer() {
   return (
@@ -81,10 +82,7 @@ function ThirdLayer() {
           </div>
         </div>
         <div className="button-space text-center">
-          <div className="d-grid gap-2 d-md-block mt-5">
-            <button className="btn btn-primary me-3 py-3 px-3" type="button">Sign up for free</button>
-            <button className="btn btn-outline-dark py-3 px-3 text-secondary" type="button">Teams - Get started today</button>
-          </div>
+          <WaitList/>
         </div>
       </div>
       <div className="container mobile" style={{marginTop: "-60px"}}>
@@ -153,10 +151,7 @@ function ThirdLayer() {
           </div>
         </div>
         <div className="button-space text-center">
-          <div className="d-grid gap-2 d-md-block mt-5">
-            <button className="btn btn-primary me-3 py-3 px-3" type="button">Sign up for free</button>
-            <button className="btn btn-outline-dark py-3 px-3 text-secondary" type="button">Teams - Get started today</button>
-          </div>
+          <WaitList/>
         </div>
       </div>
     </section>

@@ -8,6 +8,7 @@ import lines from "../img/works-line.svg";
 // import seedspace from "../img/seedspace.png";
 import mobilehero from "../img/hero-mobile.png";
 import worklines from "../img/worklines.svg";
+import WaitList from "./WaitList";
 
 function Hero() {
   return (
@@ -23,10 +24,7 @@ function Hero() {
             <h2 className='hero'>in your city</h2>
             <h6 className="text-muted pt-4 fs-5">Ditch inconsistent power supply at home, check-in to a</h6>
             <h6 className="text-muted fs-5">workspace near you, pay per minute</h6>
-            <div className="d-grid gap-2 d-md-block mt-5">
-              <button className="btn btn-primary me-3 py-3 px-3" type="button">Sign up for free</button>
-              <button className="btn btn-outline-dark py-3 px-3 text-secondary" type="button">Teams - Get started today</button>
-            </div>
+            <WaitList/>
           </div>
 				</div>
         <img src={mobilehero} alt="" className="mobile img-fluid"/>
@@ -74,7 +72,7 @@ function Hero() {
             <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
           </div>
         </div> */}
-        <div className="row justify-content-center my-5">
+        <div className="row justify-content-center mt-5">
           <div className="col-md-5 mb-3">
             <div className="d-flex flex-row pin">
               <i className="fa fa-map-pin icon-hero me-3" aria-hidden="true"></i>
@@ -89,9 +87,10 @@ function Hero() {
           </div>
         </div>
         <div className="row justify-content-center hero-button">
-          <div className="col-md-5 text-center">
+          {/* <div className="col-md-5 text-center">
             <button className="btn btn-primary me-3 py-3 px-5 shadow" type="button">Try for free</button>
-          </div>
+          </div> */}
+          <WaitList/>
         </div>
       </div>
 		</div>

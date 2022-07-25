@@ -6,7 +6,7 @@ import Secondlayer from './Component/SecondLayer';
 import ThirdLayer from './Component/ThirdLayer';
 import FourthLayer from './Component/FourthLayer';
 import FifthLayer from './Component/FifthLayer';
-import SixLayer from './Component/SixthLayer';
+// import SixLayer from './Component/SixthLayer';
 import SeventhLayer from './Component/SeventhLayer';
 import Footer from './Component/Footer';
 
@@ -19,7 +19,7 @@ function App() {
       <ThirdLayer/>
       <FourthLayer/>
       <FifthLayer/>
-      <SixLayer/>
+      {/* <SixLayer/> */}
       <SeventhLayer/>
       <Footer/>
     </div>

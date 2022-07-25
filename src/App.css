@@ -346,7 +346,7 @@ h3.hero {
 }
 
 .hero-button {
-  margin: 90px 0px 60px 0px;
+  margin: 0px 0px 60px 0px;
 }
 
 .shadow {
@@ -594,7 +594,7 @@ section.secondlayer {
 .logo-house {
   padding: 90px 0px;
   background-color: #F1F2F6;
-  border-radius: 90px 90px 0px 0px;
+  /* border-radius: 90px 90px 0px 0px; */
 }
 
 .logo-house h2 {
@@ -936,4 +936,25 @@ h2.heroteam {
 
 .thirdcard {
   padding: 180px 20px!important;
+}
+
+.form-control {
+  background: transparent;
+  border:  2px solid #00abe7;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 300px;
+}
+
+.form-inline {
+  justify-content: center;
+}
+
+.waitlist .btn {
+  padding: 10px 30px;
 }

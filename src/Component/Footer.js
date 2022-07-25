@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../img/logo.png";
 import { Link } from "react-router-dom";
+import WaitList from "./WaitList";
 function Footer() {
   return(
     <section className="footer-section">
@@ -8,10 +9,7 @@ function Footer() {
         <div className="row justify-content-center">
           <div className="col-md-9 text-center">
             <h2>Let’s get to work</h2>
-            <div className="d-grid gap-2 d-md-block mt-4">
-              <button className="btn btn-primary me-3 py-3 px-3" type="button">Sign up for free</button>
-              <button className="btn btn-outline-dark py-3 px-3 text-white" type="button">Teams - Get started today</button>
-            </div>
+            <WaitList/>
           </div>
         </div>
         <div className="row copyright">

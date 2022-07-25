@@ -1,25 +1,25 @@
 import React from "react";
-import member from "../img/member.png";
+// import member from "../img/member.png";
 
 function TeamFooter() {
   return (
     <section>
       <section className="teamfooter">
         <div className="container">
-          <div className="row">
-            <div className="col-md-6 mt-4 mb-3">
+          <div className="row justify-content-center">
+            <div className="col-md-8 text-center">
               <h2>The best companies<br/>are going <span style={{color: "#00ABE7"}}>remote with<br/>Base</span></h2>
               <button className="btn btn-primary py-2 px-4 mt-5" type="button">Try Base for teams</button>
             </div>
-            <div className="col-md-6" data-aos="slide-left" data-aos-duration="2000">
+            {/* <div className="col-md-6" data-aos="slide-left" data-aos-duration="2000">
               <img src={member} alt="" className="img-fluid" />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row white-space"></div>
-      </div>
+      </div> */}
     </section>
   )
 }

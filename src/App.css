@@ -442,7 +442,7 @@ section.secondlayer {
 
 
 .app-card {
-  margin-top: 140px;
+  margin-top: 179px;
   margin-bottom: 20px;
 }
 
@@ -538,15 +538,13 @@ section.secondlayer {
 
 
 
-@media (min-width: 992px){
+/* @media (min-width: 992px){
   .wavy {
     background-image: url("./img/wave.gif");
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
     background-size: contain;
     padding: 100px 0px;
   }
-}
+} */
 
 .counter {
   background: #111111;
@@ -936,3 +934,6 @@ h2.heroteam {
   }
 }
 
+.thirdcard {
+  padding: 180px 20px!important;
+}

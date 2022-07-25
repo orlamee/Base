@@ -10,9 +10,9 @@ function FifthLayer () {
           <div className="col-md-6 mb-2">
             <h2>Join the Base<br/>community for <span style={{color: "#827F7F"}}>remote<br/>workers</span></h2>
             <ul className="listed mt-4">
-              <li>Feedback from other users</li>
-              <li>Links to our socials/newsletter</li>
-              <li>Membership perks (e.g. events, free coffee)</li>
+              <li>Networking & Social events</li>
+              <li>Educative Seminars</li>
+              <li>Membership perks</li>
             </ul>
           </div>
           <div className="col-md-6">
@@ -21,9 +21,8 @@ function FifthLayer () {
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row counter">
-          {/* <img src={wave} alt="" /> */}
           <div className="col-md-3 text-center">
             <h3>600k</h3>
             <h6>Checkins</h6>
@@ -39,9 +38,8 @@ function FifthLayer () {
           <div className="col-md-3 text-center" style={{marginTop : "27px"}}>
             <button className="btn btn-primary" type="button">Join Base</button>
           </div>
-        </div>
-        
-      </div>
+        </div>  
+      </div> */}
     </section>
   )
 }

@@ -4,7 +4,7 @@ function Location(params) {
   return (
     <section className="location-section">
       <div className="container">
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
           <div className="col-md-11 lagos text-center">
             <h2>Lagos</h2>
           </div>
@@ -17,7 +17,7 @@ function Location(params) {
           <div className="col-md-8 abeokuta text-center">
             <h2>Abeokuta</h2>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

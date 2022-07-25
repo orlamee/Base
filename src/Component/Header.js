@@ -21,14 +21,14 @@ function Header() {
 								<Link className="nav-link" to="/explore">Explore spaces</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/pricing">Pricing</Link>
+								<Link className="nav-link" to="/">Pricing</Link>
 							</li>
 						</ul>
 					</div>
 					<div className='ml-auto'>
 						<ul className='navbar-nav'>
 							<li className='nav-item'>
-								<Link to="/login-as" className='nav-link me-3'>Log in</Link>
+								<Link to="/" className='nav-link me-3'>Log in</Link>
 							</li>
 							<li className='nav-item'>
 						   	<a className='btn btn-primary px-4' href="/">Try for free</a>

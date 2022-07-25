@@ -14,6 +14,7 @@ import SignUp from './SignUp';
 import ForTeam from './ForTeam';
 import Pricing from './Pricing';
 import ExploreSpace from './ExploreSpace';
+import SpaceOwners from './SpaceOwners';
 
 
 
@@ -29,6 +30,7 @@ root.render(
       <Route path="/login-as" element={<Loginas/>}></Route>
       <Route path="/create" element={<CreateAccount/>}></Route>
       <Route path="/signup" element={<SignUp/>}></Route>
+      <Route path="/space-owners" element={<SpaceOwners/>}></Route>
     </Routes>
   </BrowserRouter>
 );

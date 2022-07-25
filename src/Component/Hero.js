@@ -1,11 +1,11 @@
 import React from "react";
 import hero from "../img/hero.png";
 import lines from "../img/works-line.svg";
-import wework from "../img/wework.png";
-import valley from "../img/valley.png";
-import hub from "../img/hub.png";
-import work from "../img/workstation.png";
-import seedspace from "../img/seedspace.png";
+// import wework from "../img/wework.png";
+// import valley from "../img/valley.png";
+// import hub from "../img/hub.png";
+// import work from "../img/workstation.png";
+// import seedspace from "../img/seedspace.png";
 import mobilehero from "../img/hero-mobile.png";
 import worklines from "../img/worklines.svg";
 
@@ -38,7 +38,7 @@ function Hero() {
         <img src={worklines} alt="" className="img-fluid bg" />
       </div>
       <div className="container" data-aos="slide-left" data-aos-duration="2000">
-        <div className="row justify-content-center desktop" style={{marginTop: "-45px"}}>
+        <div className="row justify-content-center desktop" style={{marginTop: "-120px"}}>
           <div className="col-md-8 text-center">
             <h3 className="account"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
           </div>
@@ -48,7 +48,7 @@ function Hero() {
             <h3 className="account"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
           </div>
         </div>
-        <div className="row justify-content-center desktop">
+        {/* <div className="row justify-content-center desktop">
           <div className="col-md-11 logo-sect text-center">
             <img className="d-inline me-4 img-fluid" alt="" src={wework}/>
             <img className="d-inline me-4 img-fluid" alt="" src={valley}/>
@@ -56,8 +56,8 @@ function Hero() {
             <img className="d-inline me-4 img-fluid" alt="" src={work}/>
             <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
           </div>
-        </div>
-        <div className="row justify-content-center logo-sect mobile">
+        </div> */}
+        {/* <div className="row justify-content-center logo-sect mobile">
           <div className="col text-center">
             <img className="d-inline me-4 img-fluid" alt="" src={wework}/>
           </div>
@@ -73,8 +73,8 @@ function Hero() {
           <div className="col text-center">
             <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
           </div>
-        </div>
-        <div className="row justify-content-center mb-5">
+        </div> */}
+        <div className="row justify-content-center my-5">
           <div className="col-md-5 mb-3">
             <div className="d-flex flex-row pin">
               <i className="fa fa-map-pin icon-hero me-3" aria-hidden="true"></i>

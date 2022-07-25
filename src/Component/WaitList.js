@@ -5,7 +5,7 @@ import { useForm, ValidationError } from '@formspree/react';
 function WaitList() {
   const [state, handleSubmit] = useForm("meqnynll");
   if (state.succeeded) {
-    return <h6 className="mt-4" style={{color: "green"}}>
+    return <h6 className="mt-4 fs-5" style={{color: "green"}}>
       You have successfully joined our waitlist
     </h6>;
   }

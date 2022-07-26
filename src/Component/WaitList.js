@@ -2,34 +2,15 @@ import React from "react";
 // import { useForm, ValidationError } from '@formspree/react';
 // import yes from "../img/yes.png";
 
-// function WaitList() {
-//   const [state, handleSubmit] = useForm("meqnynll");
-//   if (state.succeeded) {
-//     return <h6 className="mt-4 fs-5" style={{color: "green"}}>
-//       You have successfully joined our waitlist
-//     </h6>;
-//   }
-//   return (
-//     <div className="waitlist justify-content-center mt-5">
-//       <form className="form-inline" onSubmit={handleSubmit}>
-//         <div className="form-group"><input className="form-control" id="email" type="email" name="email" placeholder="Your Email"/></div>
-//         <ValidationError 
-//           prefix="Email" 
-//           field="email"
-//           errors={state.errors}
-//         />
-//         <div className="form-group"><button type="submit" disabled={state.submitting} className="btn btn-primary" id="my-form-button">Join the waitlist </button></div>
-//         <p id="my-form-status"></p>
-//       </form>
-//     </div>
-//   );
-// }
-
 function WaitList() {
   return (
-    <div class="launchlist-widget" data-key-id="YWiBgh" data-height="180px"></div>
-  )
-  
+    <div className="waitlist justify-content-center mt-5">
+      <form className="form-inline launchlist-form" action="https://getlaunchlist.com/s/YWiBgh" method="POST">
+        <div className="form-group"><input className="form-control" type="email" name="email" placeholder="Your Email" required/></div>
+        <div className="form-group"><button type="submit" className="btn btn-primary">Join the waitlist </button></div>
+      </form>
+    </div>
+  );
 }
 
 export default WaitList;

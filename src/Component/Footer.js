@@ -31,8 +31,8 @@ function Footer() {
           </div>
           <div className="col-md-2 col-6">
             <div className="d-flex flex-row">
-              <a href="https://www.instagram.com/_wearebase_" target="_blank"><i className="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i></a>
-              <a href="https://www.twitter.com/_wearebase_" target="_blank" rel="noopener noreferer"><i className="bi bi-twitter me-4" style={{color: "#D9D9D9"}}></i></a>
+              <a href="https://www.instagram.com/_wearebase_"><i className="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i></a>
+              <a href="https://www.twitter.com/_wearebase_"><i className="bi bi-twitter me-4" style={{color: "#D9D9D9"}}></i></a>
               <i className="bi bi-facebook" style={{color: "#D9D9D9"}}></i>
             </div>
           </div>

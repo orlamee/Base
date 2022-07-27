@@ -31,7 +31,7 @@ function Footer() {
           </div>
           <div className="col-md-2 col-6">
             <div className="d-flex flex-row">
-              <i className="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i>
+              <Link to="https://www.instagram/_wearebase_" target="_blank"><i className="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i></Link>
               <i className="bi bi-twitter me-4" style={{color: "#D9D9D9"}}></i>
               <i className="bi bi-facebook" style={{color: "#D9D9D9"}}></i>
             </div>

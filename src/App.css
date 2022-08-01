@@ -49,7 +49,7 @@ body {
 }
 
 .logo {
-  width: 140px;
+  width: 80px;
 }
 
 .bg {
@@ -250,7 +250,7 @@ body {
 
 h2.hero {
   font-size: 54px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 62px;
   color: #103861;
   /* letter-spacing: 2px; */

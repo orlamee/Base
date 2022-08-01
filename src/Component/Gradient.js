@@ -6,7 +6,7 @@ function Gradient() {
   return(
     <section>
       <div className="App-banner">
-        <img src={linear} alt="" className="bg desktop" style={{marginTop: "23px"}}/>
+        <img src={linear} alt="" className="bg desktop" style={{marginTop: "0px"}}/>
         <img src={linearmobile} alt="" className="bg mobile"/>
       </div>
       <Hero/>

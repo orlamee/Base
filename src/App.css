@@ -360,7 +360,15 @@ h3.hero {
 
 section.secondlayer {
   background-color: #F5F6F8;
-  padding: 120px 0px 168px 0px;
+  padding: 120px 0px 200px 0px;
+}
+
+.secondlayer h2 {
+  color: #103861;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 54px;
+
 }
 
 .title-content {
@@ -957,4 +965,31 @@ h2.heroteam {
 
 .waitlist .btn {
   padding: 10px 30px;
+}
+
+.stepping {
+  margin-top: 70px;
+}
+
+@media (min-width: 992px){
+  .liner::after { 
+    content: url("./img/line.png");
+    position: absolute;
+    right: -86px;
+    bottom: 169px;
+  }
+}
+
+.stepping h6 {
+  color: #103861;
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 600;
+}
+
+.stepping p {
+  color: #555A5E;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
 }

@@ -19,7 +19,7 @@ function Secondlayer() {
             <img src={one} alt="" className="img-fluid"/>
             <div className="mt-4">
               <div className="liner"><img src={four} alt="" className="img-fluid"/></div>
-              <h6 className="my-4">Find a space </h6>
+              <h6 className="my-4">Find a space</h6>
               <p>Click ‘Explore spaces’ or walk<br/>into any workspace with our<br/>logo displayed</p>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Secondlayer() {
             <img src={two} alt="" className="img-fluid"/>
             <div className="mt-4">
               <div className="liner"><img src={five} alt="" className="img-fluid"/></div>
-              <h6 className="my-4">Find a space </h6>
+              <h6 className="my-4">Check in</h6>
               <p>Open your phone camera and<br/>scan the QR code at entrance to<br/>check in</p>
             </div>
           </div>
@@ -35,7 +35,7 @@ function Secondlayer() {
             <img src={three} alt="" className="img-fluid"/>
             <div className="mt-4">
               <div><img src={six} alt="" className="img-fluid"/></div>
-              <h6 className="my-4">Find a space </h6>
+              <h6 className="my-4">Get to work</h6>
               <p>Get your work done. Don’t forget<br/>to check out when finished</p>
             </div>
           </div>

@@ -28,10 +28,10 @@ function Header() {
 					<div className='ml-auto'>
 						<ul className='navbar-nav'>
 							<li className='nav-item'>
-								<Link to="/" className='nav-link me-3'>Log in</Link>
+								<a href="https://www.app.trybase.co/login" className='nav-link me-3'>Log in</a>
 							</li>
 							<li className='nav-item'>
-						   	<a className='btn btn-primary px-4' href="/">Try for free</a>
+						   	<a className='btn btn-primary px-4' href="https://www.app.trybase.co/register">Try for free</a>
 							</li>
 						</ul>
 					</div>

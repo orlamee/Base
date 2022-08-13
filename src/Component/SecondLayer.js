@@ -42,7 +42,7 @@ function Secondlayer() {
         </div>
         <div className="row justify-content-center ">
           <div className="col-md-6 text-center">
-            <a href="https://www.app.trybase.co/register" className="btn btn-primary me-3 py-3 px-5 shadow" type="button">Try for free</a>
+            <a href="https://www.app.trybase.co/register" className="btn btn-primary me-3 py-3 px-5 shadow">Try for free</a>
           </div>
         </div>
       </div>

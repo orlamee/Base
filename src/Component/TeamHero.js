@@ -11,7 +11,7 @@ function TeamHero() {
       </div>
       <div className="banner-inn">
 				<div className="row subtext justify-content-center" data-aos="slide-down" data-aos-duration="2000">
-          <div className="col-md-8 text-center">
+          <div className="col-md-10 text-center">
             <h2 className='heroteam'>Increase your teams’ productivity</h2>
             {/* <Animation/> */}
             <div className="d-grid gap-2 d-md-block mt-5">

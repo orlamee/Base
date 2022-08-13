@@ -21,12 +21,12 @@ function ThirdLayer() {
           <div className="col-md-8 text-center">
             <h2 className="hero"><span style={{color: "#00ABE7"}}>Why Base is</span> awesome?</h2>
           </div>
-          <div className="col-md-10 text-center">
+          <div className="col-md-12 text-center">
             <h1 className="bg-text">Benefits</h1>
           </div>
         </div>
         <div className="row justify-content-center app-card" data-aos="slide-right" data-aos-duration="2000">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <div className="card-bg">
               <h2><span style={{color: "#00ABE7"}}>Cost </span><br/><span style={{color: "#FF64FF"}}>effective</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Pay per minute, and for only time used</h6>
@@ -38,7 +38,7 @@ function ThirdLayer() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 mb-3">
+          <div className="col-md-5 mb-3">
             <div className="card-bg secondth skew">
               <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>spaces</h2>
               <h6 className="fs-6 pt-4 pb-4">There’s always one 5 mins from you</h6>
@@ -53,7 +53,7 @@ function ThirdLayer() {
           </div>
         </div>
         <div className="row justify-content-center app-card mb-5" style={{marginTop: "0px"}} data-aos="slide-left" data-aos-duration="2000">
-          <div className="col-md-4">
+          <div className="col-md-5">
             <div className="card-bg thirdcard" style={{margin: "-95px 0px 65px 0px" }}>
               <h2><span style={{color: "#00ABE7"}}>Instant </span><br/>check-in</h2>
               <h6 className="fs-6 pt-4 pb-4">Walk in anywhere without booking</h6>
@@ -68,7 +68,7 @@ function ThirdLayer() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-5">
             <div className="card-bg secondth" style={{marginTop: "30px"}}>
               <h2><span style={{color: "#00ABE7"}}>Meet other </span><br/><span style={{color: "#FF64FF"}}>remote workers</span></h2>
               <h6 className="fs-6 pt-4 pb-4">Meet new people,  make new friends</h6>

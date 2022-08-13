@@ -19,7 +19,7 @@ function Hero() {
 				<div className="row subtext justify-content-center" data-aos="slide-down" data-aos-duration="2000">
           <div className="col-md-8 text-center">
             <h2 className='hero'><span style={{color: "#00ABE7"}}>Work</span> from the</h2>
-            <h2 className='hero'>best <span style={{color: "#00ABE7"}}>workspaces</span></h2>
+            <h2 className='hero'>best <span id="spin"></span></h2>
             {/* <Animation/> */}
             <h2 className='hero'>in your city</h2>
             <h6 className="text-muted pt-4 fs-5">Ditch inconsistent power supply at home, check-in to a</h6>

@@ -10,6 +10,11 @@ body {
   font-family: GTWalsheimPro-Regular;
 }
 
+@font-face {
+  font-family: GTWalsheimPro-Bold;
+  src: url('./GTWalsheimPro-Bold.ttf');
+}
+
 
 @font-face {
   font-family: GTWalsheimPro-Regular;
@@ -249,14 +254,16 @@ body {
 }
 
 h2.hero {
+  font-family: 'GTWalsheimPro-Bold';
   font-size: 54px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 62px;
   color: #103861;
   /* letter-spacing: 2px; */
 }
 
 h3.hero {
+  font-family: 'GTWalsheimPro-Bold';
   font-size: 48px;
   font-weight: 700;
   line-height: 55px;
@@ -364,6 +371,7 @@ section.secondlayer {
 }
 
 .secondlayer h2 {
+  font-family: 'GTWalsheimPro-Bold';
   color: #103861;
   font-size: 48px;
   font-weight: 700;
@@ -396,6 +404,7 @@ section.secondlayer {
 }
 
 .bg-text {
+  font-family: 'GTWalsheimPro-Bold';
   font-weight: 700;
   font-size: 265.719px;
   line-height: 304px;
@@ -442,8 +451,9 @@ section.secondlayer {
 }
 
 .card-bg h2 {
-  font-size: 45px!important;
-  line-height: 50px;
+  font-family: 'GTWalsheimPro-Bold';
+  font-size: 48px!important;
+  line-height: 54px;
   color: #103861;
   font-weight: 700;
 }
@@ -507,8 +517,9 @@ section.secondlayer {
 }
 
 .team-section h2 {
+  font-family: 'GTWalsheimPro-Bold';
   font-size: 48px;
-  color: #103861;
+  color: #303030;
   line-height: 55px;
   font-weight: 700;
 }
@@ -528,6 +539,7 @@ section.secondlayer {
 }
 
 .join-section h2 {
+  font-family: 'GTWalsheimPro-Bold';
   color: #FFFFFF;
   font-size: 48px;
   line-height: 55px;
@@ -606,6 +618,7 @@ section.secondlayer {
 }
 
 .logo-house h2 {
+  font-family: 'GTWalsheimPro-Bold';
   font-size: 48px;
   line-height: 55px;
   font-weight: 700;
@@ -619,7 +632,8 @@ section.secondlayer {
 
 .footer-section h2 {
   font-size: 48px;
-  line-height: 55px;
+  font-family: 'GTWalsheimPro-Bold';
+  line-height: 57px;
   font-weight: 700;
   color: #fff;
 }
@@ -652,6 +666,7 @@ section.secondlayer {
 }
 
 h2.heroteam {
+  font-family: 'GTWalsheimPro-Bold';
   font-size: 60px;
   font-weight: 700;
   line-height: 73px;
@@ -716,6 +731,7 @@ h2.heroteam {
 }
 
 .account {
+  font-family: 'GTWalsheimPro-Bold';
   font-weight: 700;
   font-size: 48px;
   line-height: 55px;
@@ -723,8 +739,9 @@ h2.heroteam {
 }
 
 .core-section h2 {
+  font-family: 'GTWalsheimPro-Bold';
   font-size: 48px;
-  color: #103861;
+  color: #303030;
   line-height: 55px;
   font-weight: 700;
 }
@@ -740,6 +757,7 @@ h2.heroteam {
 }
 
 .core-bg h6 {
+  font-family: 'GTWalsheimPro-Bold';
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
@@ -835,6 +853,7 @@ h2.heroteam {
 }
 
 .teamfooter h2 {
+  font-family: 'GTWalsheimPro-Bold';
   font-weight: 700;
   font-size: 48px;
   line-height: 55px;
@@ -992,4 +1011,26 @@ h2.heroteam {
   font-size: 20px;
   line-height: 23px;
   font-weight: 400;
+}
+
+#spin {
+  color: #00ABE7;
+}
+#spin:after {
+  content:"";
+  animation: spin 30s linear infinite;
+  -webkit-animation: spin 30s linear infinite;
+}
+@keyframes spin {
+  0% { content:"workspaces";}
+  10% { content:"cafes";}
+  20% { content:"hotels";}
+  30% { content:"hubs";}
+  40% { content:"workspaces";}
+  50% { content: "cafes";}
+  60% { content: "hotels"; }
+  70% { content: "Hubs"; }
+  80% { content: "workspaces"; }
+  90% { content: "cafes"; }
+  100% { content: "hotels"; }
 }

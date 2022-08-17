@@ -31,7 +31,7 @@ function Header() {
 								<a href="https://www.app.trybase.co/login" className='nav-link me-3'>Log in</a>
 							</li>
 							<li className='nav-item'>
-						   	<a className='btn btn-primary px-4' href="https://www.app.trybase.co/register">Try for free</a>
+						   	<a className='btn btn-primary px-4' href="https://www.app.trybase.co/register">Try Base</a>
 							</li>
 						</ul>
 					</div>

@@ -12,7 +12,7 @@ function Cores() {
         <div className="row">
           <div className="col-md-6 col-sm-6 mt-5 mb-5 mobile-center" data-aos="slide-right" data-aos-duration="2000">
             <h2 className="mb-5">Give your team<br/><span style={{color: "#00ABE7"}}>freedom to work from</span><br/>anywhere</h2>
-            <button className="btn btn-primary py-2 px-4" type="button">Try Base for teams</button>
+            <a href="https://www.app.trybase.co/register" className="btn btn-primary py-2 px-4" type="button">Try Base for teams</a>
           </div>
           <div className="col-md-6" data-aos="slide-left" data-aos-duration="2000">
             <div className="row price-mobile">

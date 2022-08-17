@@ -42,7 +42,7 @@ function Price () {
                   <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
-                <button className="btn btn-primary text-center btn-block py-2 px-3" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
+                <button className="btn btn-primary text-center btn-block py-2 px-3 small-btn" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
               </div>
             </div>
             <div className="col-md-3 mb-3">
@@ -75,7 +75,7 @@ function Price () {
                   <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
-                <button className="btn btn-primary text-center btn-block py-2 px-3 bg-purple" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
+                <button className="btn btn-primary text-center btn-block py-2 px-3 bg-purple small-btn" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
               </div>
             </div>
             <div className="col-md-3">
@@ -108,7 +108,7 @@ function Price () {
                   <i className="bi bi-check-circle-fill text-white pe-2"></i>
                   <h4>No contracts, cancel any time</h4>
                 </div>
-                <button className="btn btn-primary text-center btn-block bg-gray py-2 px-3" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
+                <button className="btn btn-primary text-center btn-block bg-gray py-2 px-3 small-btn" type="button">Try silver for your team <i className="bi bi-arrow-right text-white"></i></button>
               </div>
             </div>
           </div>

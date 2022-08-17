@@ -21,7 +21,7 @@ function FifthLayer () {
           </div>
         </div>
       </div>
-      {/* <div className="container-fluid">
+      <div className="container-fluid">
         <div className="row counter">
           <div className="col-md-3 text-center">
             <h3>600k</h3>
@@ -39,7 +39,7 @@ function FifthLayer () {
             <button className="btn btn-primary" type="button">Join Base</button>
           </div>
         </div>  
-      </div> */}
+      </div>
     </section>
   )
 }

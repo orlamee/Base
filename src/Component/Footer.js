@@ -16,24 +16,24 @@ function Footer() {
           <div className="col-md-2 mb-5">
             <img src={logo} alt="" className="img-fluid" width={80} />
           </div>
-          <div className="col-md-4 col-6 mb-4">
+          <div className="col-md-8 col-12 mb-4">
             <ul className="listed-unstyled footer-copyright">
-              <li className="pe-4"><Link to="/for-team">For Team</Link></li>
+              <li className="pe-4"><Link to="/for-team">For Teams</Link></li>
               <li className="pe-4"><Link to="/explore">Explore Spaces</Link></li>
               <li className="pe-4"><Link to="/space-owners">Space Owners</Link></li>
             </ul>
           </div>
-          <div className="col-md-4 col-6 mb-4">
+          {/* <div className="col-md-4 col-6 mb-4">
             <ul className="listed-unstyled footer-copyright">
               <li className="pe-4">New York<br/>+1 332 223 4010</li>
               <li>London (UK)<br/>+44 203 882 4518</li>
             </ul>
-          </div>
+          </div> */}
           <div className="col-md-2 col-6">
             <div className="d-flex flex-row">
-              <a href="https://www.instagram.com/_wearebase_"><i className="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i></a>
-              <a href="https://www.twitter.com/_wearebase_"><i className="bi bi-twitter me-4" style={{color: "#D9D9D9"}}></i></a>
-              <i className="bi bi-facebook" style={{color: "#D9D9D9"}}></i>
+              <a href="https://www.instagram.com/_wearebase_" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram me-4" style={{color: "#D9D9D9"}}></i></a>
+              <a href="https://www.twitter.com/_wearebase_" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter me-4" style={{color: "#D9D9D9"}}></i></a>
+              {/* <i className="bi bi-facebook" style={{color: "#D9D9D9"}}></i> */}
             </div>
           </div>
           <div className="col-md-2 col-6 mobile">

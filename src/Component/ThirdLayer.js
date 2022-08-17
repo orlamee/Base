@@ -40,7 +40,7 @@ function ThirdLayer() {
           </div>
           <div className="col-md-5 mb-3">
             <div className="card-bg secondth skew">
-              <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>spaces</h2>
+              <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>inspiring spaces</h2>
               <h6 className="fs-6 pt-4 pb-4">There’s always one 5 mins from you</h6>
               <div className="text-center">
                 <p><span style={{color: "#00ABE7"}}>Veniahub, Ikeja</span></p>
@@ -109,7 +109,7 @@ function ThirdLayer() {
           </div>
           <div className="col-md-4 mb-5">
             <div className="card-bg secondth">
-              <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>spaces</h2>
+              <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>inspiring spaces</h2>
               <h6 className="fs-6 pt-4 pb-4">There’s always one 5 mins from you</h6>
               <div className="text-center">
                 <p><span style={{color: "#00ABE7"}}>Veniahub, Ikeja</span></p>

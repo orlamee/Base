@@ -556,9 +556,13 @@ section.secondlayer {
   font-size: 27px;
 }
 
-
-
-rr
+@media (min-width: 992px){
+  .wavy {
+    background-image: url("./img/wave.gif");
+    background-size: contain;
+    padding: 100px 0px;
+  }
+}
 
 .counter {
   background: #111111;

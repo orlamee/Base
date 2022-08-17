@@ -1016,11 +1016,13 @@ h2.heroteam {
 #spin {
   color: #00ABE7;
 }
+
 #spin:after {
   content: " ";
   animation: spin 30s linear infinite;
   -webkit-animation: spin 30s linear infinite;
 }
+
 @keyframes spin {
   0% { content:"workspaces";}
   10% { content:"cafes";}
@@ -1033,4 +1035,8 @@ h2.heroteam {
   80% { content: "workspaces"; }
   90% { content: "cafes"; }
   100% { content: "hotels"; }
+}
+
+.logo-sect > img {
+  width: 130px;
 }

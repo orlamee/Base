@@ -1,11 +1,11 @@
 import React from "react";
 import hero from "../img/hero.png";
 import lines from "../img/works-line.svg";
-// import wework from "../img/wework.png";
-// import valley from "../img/valley.png";
-// import hub from "../img/hub.png";
-// import work from "../img/workstation.png";
-// import seedspace from "../img/seedspace.png";
+import wework from "../img/wp.png";
+import valley from "../img/th.png";
+import hub from "../img/hub.png";
+import work from "../img/h30.png";
+import seedspace from "../img/wc.png";
 import mobilehero from "../img/hero-mobile.png";
 import worklines from "../img/worklines.svg";
 import WaitList from "./WaitList";
@@ -46,16 +46,16 @@ function Hero() {
             <h3 className="account"><span style={{color: "#00ABE7"}}>1 account = </span>500+ workspaces</h3>
           </div>
         </div>
-        {/* <div className="row justify-content-center desktop">
+        <div className="row justify-content-center desktop">
           <div className="col-md-11 logo-sect text-center">
-            <img className="d-inline me-4 img-fluid" alt="" src={wework}/>
-            <img className="d-inline me-4 img-fluid" alt="" src={valley}/>
-            <img className="d-inline me-4 img-fluid" alt="" src={seedspace}/>
-            <img className="d-inline me-4 img-fluid" alt="" src={work}/>
-            <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
+            <img className="d-inline me-5 img-fluid" alt="" src={wework}/>
+            <img className="d-inline me-5 img-fluid" alt="" src={valley}/>
+            <img className="d-inline me-5 img-fluid" alt="" src={seedspace}/>
+            <img className="d-inline me-5 img-fluid" alt="" src={work}/>
+            <img className="d-inline me-5 img-fluid" alt="" src={hub}/>
           </div>
-        </div> */}
-        {/* <div className="row justify-content-center logo-sect mobile">
+        </div>
+        <div className="row justify-content-center logo-sect mobile">
           <div className="col text-center">
             <img className="d-inline me-4 img-fluid" alt="" src={wework}/>
           </div>
@@ -71,7 +71,7 @@ function Hero() {
           <div className="col text-center">
             <img className="d-inline me-4 img-fluid" alt="" src={hub}/>
           </div>
-        </div> */}
+        </div>
         <div className="row justify-content-center mt-5">
           <div className="col-md-5 mb-3">
             <div className="d-flex flex-row pin">

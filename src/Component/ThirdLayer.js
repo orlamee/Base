@@ -64,7 +64,7 @@ function ThirdLayer() {
               </div>
               <button className="btn btn-outline-dark-line me-1 py-2 btn-block text-line">No documentation and BS!</button>
               <div className="float-end pt-3">
-                <img src={plus} alt="" className="img-fluid" />
+                <img src={plus} alt="" className="img-fluid" style={{marginTop: "103px"}} />
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ function ThirdLayer() {
                 <img src={humans} alt="" className="img-fluid" width=""/>
               </div>
               <div className="float-end pt-3">
-                <img src={plus} alt="" className="img-fluid" />
+                <img src={plus} alt="" className="img-fluid" /> 
               </div>
             </div>
           </div>

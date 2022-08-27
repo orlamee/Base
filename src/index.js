@@ -15,12 +15,14 @@ import ForTeam from './ForTeam';
 import Pricing from './Pricing';
 import ExploreSpace from './ExploreSpace';
 import SpaceOwners from './SpaceOwners';
+import ScrollToTop from './Component/scrollToTop';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
+    <ScrollToTop/>
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/for-team" element={<ForTeam/>}></Route>

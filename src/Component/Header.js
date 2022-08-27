@@ -18,7 +18,7 @@ function Header() {
 								<Link className="nav-link active" aria-current="page" to="/for-team">For teams</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to="/explore">Explore spaces</Link>
+								<a className="nav-link" href='https://www.app.trybase.co/'>Explore spaces</a>
 							</li>
 							<li className="nav-item">
 								<Link className="nav-link" to="/pricing">Pricing</Link>

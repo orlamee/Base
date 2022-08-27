@@ -19,7 +19,7 @@ function Footer() {
           <div className="col-md-8 col-12 mb-4">
             <ul className="listed-unstyled footer-copyright">
               <li className="pe-4"><Link to="/for-team">For Teams</Link></li>
-              <li className="pe-4"><Link to="/explore">Explore Spaces</Link></li>
+              <li className="pe-4"><a href="https://www.app.trybase.co/" target="_blank" rel="noopener noreferrer">Explore Spaces</a></li>
               <li className="pe-4"><Link to="/space-owners">Space Owners</Link></li>
             </ul>
           </div>

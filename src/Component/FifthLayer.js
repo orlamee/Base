@@ -4,7 +4,7 @@ import joinbasemobile from "../img/joinbase-mobile.png";
 
 function FifthLayer () {
   return (
-    <section className="join-section wavy">
+    <section className="join-section">
       <div className="container">
         <div className="row">
           <div className="col-md-6 mb-2">
@@ -21,7 +21,7 @@ function FifthLayer () {
           </div>
         </div>
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row counter">
           <div className="col-md-3 text-center">
             <h3>600k</h3>
@@ -39,7 +39,7 @@ function FifthLayer () {
             <button className="btn btn-primary" type="button">Join Base</button>
           </div>
         </div>  
-      </div>
+      </div> */}
     </section>
   )
 }

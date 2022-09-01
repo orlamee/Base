@@ -1,5 +1,5 @@
 import React from "react";
-import member from "../img/member.png";
+import member from "../img/team-new.png";
 
 function TeamFooter() {
   return (

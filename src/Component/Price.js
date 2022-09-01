@@ -48,7 +48,7 @@ function Price () {
             <div className="col-md-4 mb-3">
               <div className="price-header">
                 <h6>Standard Plan</h6>
-                <p>35k p/month</p>
+                <p>₦35k p/person p/month</p>
               </div>
               <div className="price-body">
                 <div className="d-flex flex-row mb-2">

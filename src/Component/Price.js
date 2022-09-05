@@ -24,7 +24,7 @@ function Price () {
                 </div>
                 <div className="d-flex flex-row mb-2">
                   <i className="bi bi-check-circle-fill text-white pe-2"></i>
-                  <h4>Charged for each check-ins</h4>
+                  <h4>Charged for each check-in</h4>
                 </div>
                 <div className="d-flex flex-row mb-2">
                   <i className="bi bi-check-circle-fill text-white pe-2"></i>

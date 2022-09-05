@@ -76,13 +76,13 @@ function Hero() {
           <div className="col-md-5 mb-3">
             <div className="d-flex flex-row pin">
               <i className="fa fa-map-pin icon-hero me-3" aria-hidden="true"></i>
-              <h6>Live in: Lagos, Port Harcourt, Abeokuta, Abuja</h6>
+              <h6>Live in: Lekki, Victoria Island</h6>
             </div>
           </div>
           <div className="col-md-5">
             <div className="d-flex flex-row pin">
               <i className="fa fa-bullhorn icon-hero me-3" aria-hidden="true"></i>
-              <h6>Coming soon: Ibadan, Owerri, Accra, Nairobi</h6>
+              <h6>Coming soon: Other cities near you</h6>
             </div>
           </div>
         </div>

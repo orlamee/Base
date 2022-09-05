@@ -43,7 +43,7 @@ function ThirdLayer() {
               <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>inspiring spaces</h2>
               <h6 className="fs-6 pt-4 pb-4">There’s always one 5 mins from you</h6>
               <div className="text-center">
-                <p><span style={{color: "#00ABE7"}}>WorkCity, Lekki</span></p>
+                <p><span style={{color: "#00ABE7"}}>Debozgini, Lekki</span></p>
                 <img src={card} alt="" className="img-fluid" style={{marginLeft: "-30px"}}/>
               </div>
               <div className="float-end pt-3">
@@ -112,7 +112,7 @@ function ThirdLayer() {
               <h2><span style={{color: "#00ABE7"}}>500+ </span><br/>inspiring spaces</h2>
               <h6 className="fs-6 pt-4 pb-4">There’s always one 5 mins from you</h6>
               <div className="text-center">
-                <p><span style={{color: "#00ABE7"}}>WorkCity, Lekki</span></p>
+                <p><span style={{color: "#00ABE7"}}>Debozgini, Lekki</span></p>
                 <img src={card} alt="" className="img-fluid" style={{marginLeft: "-30px"}}/>
               </div>
               <div className="float-end pt-3">

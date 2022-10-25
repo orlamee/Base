@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  overflow-x: hidden!important;
+  overflow-x: hidden !important;
   /* overflow-y: hidden!important; */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -12,36 +12,36 @@ body {
 
 @font-face {
   font-family: GTWalsheimPro-Bold;
-  src: url('./GTWalsheimPro-Bold.ttf');
+  src: url("./GTWalsheimPro-Bold.ttf");
 }
-
 
 @font-face {
   font-family: GTWalsheimPro-Regular;
-  src: url('./GTWalsheimPro-Regular.ttf');
+  src: url("./GTWalsheimPro-Regular.ttf");
 }
 
 @font-face {
   font-family: Boiling-BlackDemo;
-  src: url('./Boiling-BlackDemo.ttf');
+  src: url("./Boiling-BlackDemo.ttf");
 }
 
-@media only screen and (max-width: 768px){
-  html, body {
-      overflow-x: hidden!important;
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden !important;
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .navbar {
     /* background-color: #fff!important; */
-    padding: 15px 10px!important;
+    padding: 15px 10px !important;
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .navbar {
-    padding: 15px 10px!important;
+    padding: 15px 10px !important;
   }
 }
 
@@ -63,22 +63,21 @@ body {
   z-index: 0;
 }
 
-
 .nav-link {
   font-size: 18px;
   font-weight: 500;
-  color: #3F3E3E!important;
+  color: #3f3e3e !important;
 }
 
 .btn-primary {
   color: #fff;
-  background-color: #00ABE7!important;
-  border-color: #00ABE7!important;
+  background-color: #00abe7 !important;
+  border-color: #00abe7 !important;
 }
 
 .login-section {
   padding: 6em 0;
-  background-color: #EFEDED;
+  background-color: #efeded;
 }
 
 .login-header {
@@ -87,8 +86,8 @@ body {
   /* border-radius: 20px; */
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  border: 1px solid #D9D9D9;
-  border-bottom: 1px solid #D9D9D9;
+  border: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .login-bottom {
@@ -96,19 +95,19 @@ body {
   padding: 40px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  border-bottom: 1px solid #D9D9D9;
-  border-left: 1px solid #D9D9D9;
-  border-right: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   li.nav-item {
     padding-left: 30px;
   }
 }
 
 .secondary-color {
-  color: #00ABE7;
+  color: #00abe7;
 }
 
 .secondary-color a {
@@ -120,11 +119,11 @@ body {
 }
 
 .text-secondary {
-  color: #103861!important;
+  color: #103861 !important;
 }
 
 .text-secondary:hover {
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .btn-outline-secondary {
@@ -133,8 +132,8 @@ body {
 }
 
 .form-check-input:checked {
-  background-color: #00ABE7;
-  border-color: #00ABE7;
+  background-color: #00abe7;
+  border-color: #00abe7;
 }
 
 .custom {
@@ -146,7 +145,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: 1px solid #00ABE7;
+  border: 1px solid #00abe7;
 }
 
 .custom-check .custom {
@@ -195,7 +194,7 @@ body {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .subtext {
     padding: 0px 250px;
   }
@@ -203,35 +202,34 @@ body {
   .subtitle {
     font-size: 17px;
     line-height: 32px;
-    color: #555A5E;
+    color: #555a5e;
   }
-  .banner-inner{
+  .banner-inner {
     position: absolute;
     /* left: 0; */
     top: 35%;
     width: 100%;
     text-align: center;
   }
-  
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .desktop {
     display: none;
   }
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .mobile {
     display: none;
   }
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("./img/logo-icon.svg")!important;
+  background-image: url("./img/logo-icon.svg") !important;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .subtext {
     padding: 0px 20px;
   }
@@ -239,9 +237,9 @@ body {
   .subtitle {
     font-size: 17px;
     line-height: 32px;
-    color: #555A5E;
+    color: #555a5e;
   }
-  .banner-inner{
+  .banner-inner {
     /* position: absolute; */
     /* left: 0; */
     /* top: 18%; */
@@ -254,7 +252,7 @@ body {
 }
 
 h2.hero {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-size: 54px;
   font-weight: 700;
   line-height: 62px;
@@ -263,7 +261,7 @@ h2.hero {
 }
 
 h3.hero {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-size: 48px;
   font-weight: 700;
   line-height: 55px;
@@ -271,13 +269,12 @@ h3.hero {
   /* letter-spacing: 2px; */
 }
 
-
 #content {
   /* padding-top:200px;   */
   /* position:absolute; */
-  width:100%;
-  bottom:45%;
-  display:flex;
+  width: 100%;
+  bottom: 45%;
+  display: flex;
 }
 
 #flip {
@@ -288,11 +285,11 @@ h3.hero {
 }
 
 #flip > div > div {
-  color:#fff;
-  padding:4px 12px;
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
+  color: #fff;
+  padding: 4px 12px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
 }
 
 #flip div:first-child {
@@ -302,34 +299,47 @@ h3.hero {
 /*  */
 
 @keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
 }
-
 
 .btn-outline-dark {
-  border-color: #EFEDED;
+  border-color: #efeded;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .line-gradient {
     margin-top: -350px;
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .line-gradient {
     margin-top: -134px;
   }
 }
-
-
 
 .logo-sect {
   padding: 15px 37px;
@@ -340,13 +350,13 @@ h3.hero {
 }
 
 .pin {
-  background-color: #A5B9C21A;
+  background-color: #a5b9c21a;
   padding: 15px 10px 7px 17px;
   border-radius: 20px;
 }
 
 .pin h6 {
-  color: #555A5E;
+  color: #555a5e;
   font-size: 18px;
   font-weight: 400;
   line-height: 20px;
@@ -357,7 +367,7 @@ h3.hero {
 }
 
 .shadow {
-  box-shadow: 11px 8px 33px 42px #f5fbfe!important;
+  box-shadow: 11px 8px 33px 42px #f5fbfe !important;
 }
 
 .icon-hero {
@@ -366,17 +376,16 @@ h3.hero {
 }
 
 section.secondlayer {
-  background-color: #F5F6F8;
+  background-color: #f5f6f8;
   padding: 120px 0px 200px 0px;
 }
 
 .secondlayer h2 {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   color: #103861;
   font-size: 48px;
   font-weight: 700;
   line-height: 54px;
-
 }
 
 .title-content {
@@ -392,7 +401,7 @@ section.secondlayer {
 .title-content p {
   font-size: 18px;
   font-weight: 400;
-  color: #555A5E;
+  color: #555a5e;
 }
 
 .second-step {
@@ -404,7 +413,7 @@ section.secondlayer {
 }
 
 .bg-text {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-weight: 700;
   font-size: 265.719px;
   line-height: 304px;
@@ -414,8 +423,8 @@ section.secondlayer {
 
 .card-bg {
   padding: 120px 20px 70px 20px;
-  background: #FFF;
-  border: 1px solid #D9D9D9;
+  background: #fff;
+  border: 1px solid #d9d9d9;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 30.7484px;
   background-image: url("./img/bg.png");
@@ -424,13 +433,13 @@ section.secondlayer {
 }
 
 .secondth {
-  background-image: url("./img/2nd.png")!important;
+  background-image: url("./img/2nd.png") !important;
 }
 
 .card-bg {
   padding: 120px 20px 70px 20px;
-  background: #FFF;
-  border: 1px solid #D9D9D9;
+  background: #fff;
+  border: 1px solid #d9d9d9;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 30.7484px;
   background-image: url("./img/bg.png");
@@ -441,37 +450,36 @@ section.secondlayer {
 .card-bg p {
   font-size: 13px !important;
   line-height: 16px;
-  color: #00ABE7;
+  color: #00abe7;
 }
 
 .card-bg h6 {
-  font-size: 16px!important;
+  font-size: 16px !important;
   line-height: 20px;
   color: #103861;
 }
 
 .card-bg h2 {
-  font-family: 'GTWalsheimPro-Bold';
-  font-size: 48px!important;
+  font-family: "GTWalsheimPro-Bold";
+  font-size: 48px !important;
   line-height: 54px;
   color: #103861;
   font-weight: 700;
 }
-
 
 .app-card {
   margin-top: 179px;
   margin-bottom: 20px;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .skew {
     margin-top: 65px;
     /* margin-bottom: 60px; */
   }
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
   .skew {
     margin-top: 65px;
     margin-bottom: 65px;
@@ -480,27 +488,26 @@ section.secondlayer {
 
 .text-line {
   text-decoration: line-through;
-  color: #827F7F;
+  color: #827f7f;
   font-size: 17px;
 }
 
 .text-line :hover {
   text-decoration: line-through;
-  color: #827F7F;
+  color: #827f7f;
   font-size: 17px;
 }
 
 .btn-outline-dark-line:hover {
-  color: #827F7F;
+  color: #827f7f;
   text-decoration: line-through;
   /* background-color: #212529; */
-  border-color: #EFEDED;
+  border-color: #efeded;
 }
 
 .btn-outline-dark-line {
-  border-color: #EFEDED;
+  border-color: #efeded;
 }
-
 
 .button-space {
   margin: 90px 0px;
@@ -508,16 +515,15 @@ section.secondlayer {
 
 .team-section {
   padding: 90px 0px;
-  background-color: #F6F9FC;
+  background-color: #f6f9fc;
   background-image: url("./img/bg-animation.gif");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-
 }
 
 .team-section h2 {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-size: 48px;
   color: #303030;
   line-height: 55px;
@@ -527,20 +533,18 @@ section.secondlayer {
 .team-section h6 {
   font-size: 20px;
   line-height: 23px;
-  color: #555A5E;
+  color: #555a5e;
   font-weight: 400;
 }
 
 .join-section {
   padding: 90px 0px;
   background-color: #000000;
-  
-
 }
 
 .join-section h2 {
-  font-family: 'GTWalsheimPro-Bold';
-  color: #FFFFFF;
+  font-family: "GTWalsheimPro-Bold";
+  color: #ffffff;
   font-size: 48px;
   line-height: 55px;
   font-weight: 700;
@@ -548,7 +552,7 @@ section.secondlayer {
 
 .listed {
   font-size: 20px;
-  color: #827F7F;
+  color: #827f7f;
   font-weight: 400;
 }
 
@@ -556,7 +560,7 @@ section.secondlayer {
   font-size: 27px;
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .wavy {
     background-image: url("./img/wave.gif");
     background-size: contain;
@@ -568,8 +572,8 @@ section.secondlayer {
   background: #111111;
   padding: 40px 0px;
   /* border: 1px solid #ffffff30; */
-  border-top: 1px solid #ffffff30 ;
-  border-bottom: 1px solid #ffffff30 ;
+  border-top: 1px solid #ffffff30;
+  border-bottom: 1px solid #ffffff30;
 }
 
 .counter h3 {
@@ -583,7 +587,7 @@ section.secondlayer {
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  color: #827F7F;
+  color: #827f7f;
 }
 
 .workspaces-section {
@@ -606,17 +610,17 @@ section.secondlayer {
 
 .listed-colored li::marker {
   font-size: 27px;
-  color: #00ABE7;
+  color: #00abe7;
 }
 
 .logo-house {
   padding: 90px 0px;
-  background-color: #F1F2F6;
+  background-color: #f1f2f6;
   /* border-radius: 90px 90px 0px 0px; */
 }
 
 .logo-house h2 {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-size: 48px;
   line-height: 55px;
   font-weight: 700;
@@ -625,12 +629,12 @@ section.secondlayer {
 
 .footer-section {
   padding: 100px 0px 50px 0px;
-  background-color: #000D1A;
+  background-color: #000d1a;
 }
 
 .footer-section h2 {
   font-size: 48px;
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   line-height: 57px;
   font-weight: 700;
   color: #fff;
@@ -648,7 +652,7 @@ section.secondlayer {
 }
 
 .footer-copyright a {
-  color: #D9D9D9!important;
+  color: #d9d9d9 !important;
   padding-left: 0px;
   text-decoration: none;
 }
@@ -659,22 +663,27 @@ section.secondlayer {
 } */
 
 .footer-section .footer-copyright {
-  color: #D9D9D9;
+  color: #d9d9d9;
   padding-left: 0px;
 }
 
 h2.heroteam {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-size: 60px;
   font-weight: 700;
   line-height: 73px;
-  background: linear-gradient(90deg, #77DCFF 3%, #FF64FF 28.85%, #303030 47.32%);
+  background: linear-gradient(
+    90deg,
+    #77dcff 3%,
+    #ff64ff 28.85%,
+    #303030 47.32%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .subtext {
     padding: 0px 250px;
   }
@@ -682,7 +691,7 @@ h2.heroteam {
   .subtitle {
     font-size: 17px;
     line-height: 32px;
-    color: #555A5E;
+    color: #555a5e;
   }
   .banner-inn {
     position: absolute;
@@ -693,13 +702,12 @@ h2.heroteam {
   }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .subtext {
     padding: 0px 20px;
   }
 
-  
-  .banner-inn{
+  .banner-inn {
     position: absolute;
     /* left: 0; */
     top: 54%;
@@ -711,25 +719,30 @@ h2.heroteam {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
-    background: linear-gradient(90deg, #77DCFF 3%, #FF64FF 28.85%, #303030 47.32%);
+    background: linear-gradient(
+      90deg,
+      #77dcff 3%,
+      #ff64ff 28.85%,
+      #303030 47.32%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
   h2.hero {
     font-size: 41px;
     font-weight: 700;
     line-height: 50px;
     color: #103861;
     /* letter-spacing: 2px; */
-}
+  }
 }
 
 .account {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-weight: 700;
   font-size: 48px;
   line-height: 55px;
@@ -737,7 +750,7 @@ h2.heroteam {
 }
 
 .core-section h2 {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-size: 48px;
   color: #303030;
   line-height: 55px;
@@ -749,13 +762,13 @@ h2.heroteam {
 }
 
 .core-bg {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 50px 15px;
   border-radius: 20px;
 }
 
 .core-bg h6 {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
@@ -766,7 +779,7 @@ h2.heroteam {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #555A5E;
+  color: #555a5e;
 }
 
 .price-section {
@@ -778,14 +791,14 @@ h2.heroteam {
   font-weight: 700;
   font-size: 48px;
   line-height: 55px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .price-section h6 {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: #827F7F;
+  color: #827f7f;
 }
 
 .price-header h6 {
@@ -798,7 +811,7 @@ h2.heroteam {
 .price-header p {
   font-size: 20px;
   line-height: 23px;
-  color: #827F7F;
+  color: #827f7f;
   font-weight: 400;
 }
 
@@ -827,17 +840,17 @@ h2.heroteam {
   font-size: 14px;
   line-height: 18px;
   text-align: left;
-  color: #827F7F;
+  color: #827f7f;
 }
 
 .bg-purple {
-  background-color: #9747FF!important;
-  border-color: #9747FF!important;
+  background-color: #9747ff !important;
+  border-color: #9747ff !important;
 }
 
 .bg-gray {
-  background-color: #2D3748!important;
-  border-color: #2D3748!important;
+  background-color: #2d3748 !important;
+  border-color: #2d3748 !important;
 }
 
 .white-space {
@@ -846,25 +859,25 @@ h2.heroteam {
 }
 
 .teamfooter {
-  background-color: #F6F9FC;
+  background-color: #f6f9fc;
   padding: 90px 0px;
 }
 
 .teamfooter h2 {
-  font-family: 'GTWalsheimPro-Bold';
+  font-family: "GTWalsheimPro-Bold";
   font-weight: 700;
   font-size: 48px;
   line-height: 55px;
   color: #103861;
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
   .price-mobile {
-    margin: 0px 30px
+    margin: 0px 30px;
   }
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
   .mobile-center {
     text-align: center;
   }
@@ -879,12 +892,16 @@ h2.heroteam {
   font-size: 64px;
   line-height: 73px;
   text-align: center;
-  background: linear-gradient(90deg, #77DCFF 3%, #FF64FF 28.85%, #303030 47.32%);
+  background: linear-gradient(
+    90deg,
+    #77dcff 3%,
+    #ff64ff 28.85%,
+    #303030 47.32%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   /* text-fill-color: transparent; */
-
 }
 
 .location-section {
@@ -894,27 +911,27 @@ h2.heroteam {
 }
 
 .lagos {
-  background-color: #BFAFFC;
+  background-color: #bfaffc;
   padding: 40px 20px;
   border-radius: 40px;
 }
 
 .abuja {
-  background-color: #B7E7C7FA;
+  background-color: #b7e7c7fa;
   padding: 40px 20px;
   border-radius: 40px;
   margin-top: -90px;
 }
 
 .port {
-  background-color: #FDA9A9FA;
+  background-color: #fda9a9fa;
   padding: 40px 20px;
   border-radius: 40px;
   margin-top: -90px;
 }
 
 .abeokuta {
-  background-color: #FAE497FA;
+  background-color: #fae497fa;
   padding: 40px 20px;
   border-radius: 40px;
   margin-top: -90px;
@@ -952,7 +969,7 @@ h2.heroteam {
   color: #303030;
 }
 
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
   .location-section h2 {
     font-size: 50px;
     /* line-height: 60px; */
@@ -960,12 +977,12 @@ h2.heroteam {
 }
 
 .thirdcard {
-  padding: 180px 20px!important;
+  padding: 180px 20px !important;
 }
 
 .form-control {
   background: transparent;
-  border:  1px solid #00abe7;
+  border: 1px solid #00abe7;
   border-radius: 3px;
   box-shadow: none;
   outline: none;
@@ -980,16 +997,21 @@ h2.heroteam {
   justify-content: center;
 }
 
+.waitlist a {
+  text-decoration: none;
+}
+
 .waitlist .btn {
-  padding: 10px 30px;
+  padding: 16px 52px;
+  font-size: large;
 }
 
 .stepping {
   margin-top: 70px;
 }
 
-@media (min-width: 992px){
-  .liner::after { 
+@media (min-width: 992px) {
+  .liner::after {
     content: url("./img/line.png");
     position: absolute;
     right: -86px;
@@ -1005,14 +1027,14 @@ h2.heroteam {
 }
 
 .stepping p {
-  color: #555A5E;
+  color: #555a5e;
   font-size: 20px;
   line-height: 23px;
   font-weight: 400;
 }
 
 #spin {
-  color: #00ABE7;
+  color: #00abe7;
 }
 
 #spin:after {
@@ -1022,17 +1044,39 @@ h2.heroteam {
 }
 
 @keyframes spin {
-  0% { content:"workspaces";}
-  10% { content:"cafes";}
-  20% { content:"hotels";}
-  30% { content:"hubs";}
-  40% { content:"workspaces";}
-  50% { content: "cafes";}
-  60% { content: "hotels"; }
-  70% { content: "hubs"; }
-  80% { content: "workspaces"; }
-  90% { content: "cafes"; }
-  100% { content: "hotels"; }
+  0% {
+    content: "workspaces";
+  }
+  10% {
+    content: "cafes";
+  }
+  20% {
+    content: "hotels";
+  }
+  30% {
+    content: "hubs";
+  }
+  40% {
+    content: "workspaces";
+  }
+  50% {
+    content: "cafes";
+  }
+  60% {
+    content: "hotels";
+  }
+  70% {
+    content: "hubs";
+  }
+  80% {
+    content: "workspaces";
+  }
+  90% {
+    content: "cafes";
+  }
+  100% {
+    content: "hotels";
+  }
 }
 
 .logo-sect > img {
@@ -1040,5 +1084,5 @@ h2.heroteam {
 }
 
 .small-btn {
-  font-size: 15px!important;
+  font-size: 15px !important;
 }
